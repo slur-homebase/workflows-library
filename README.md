@@ -1,4 +1,4 @@
-# workflows-lib
+# workflows-library
 
 ## What this is
 

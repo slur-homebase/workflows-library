@@ -53,7 +53,7 @@ Summarised in `docs/route.md`. This build covers the rows marked "code, built".
 
 ## How to run it
 
-From the `skills/rate-quote/` folder (in workflows-lib):
+From the `skills/rate-quote/` folder (in workflows-library):
 
 ```
 python3 scripts/quote.py \
