@@ -1,0 +1,11 @@
+Request-ID: X-102
+Case: tenor in months, must not be converted; expect hand back at step 1
+Received: 2026-09-29 15:20 SGT
+From: [CUSTOMER_I]
+Subject: Drawdown quote
+
+Hello,
+
+Please quote a USD 1,000,000 drawdown under FAC-SYN-0102, value 1 October 2026, for one month.
+
+[SIGN-OFF]

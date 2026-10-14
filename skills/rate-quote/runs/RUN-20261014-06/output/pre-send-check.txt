@@ -1,0 +1,12 @@
+PRE-SEND CHECK: REQ-006 (source values, not ticks)
+outcome: hand_back
+received: 2026-09-29
+sheet date used: none (stopped before the sheet was read)
+
+item 1: drawdown AUD 4,000,000
+  item outcome: hand_back
+  reason: item 1 is AUD: the rate sheet cannot answer AUD, so no rate is computed; hand back for the Treasury/BBSW path
+
+draft check (step 11): not run (no quote draft)
+hand back: item 1 is AUD: the rate sheet cannot answer AUD, so no rate is computed; hand back for the Treasury/BBSW path
+send capability: none. Nothing was sent, connected or looked up outside the fixture files.

@@ -1,0 +1,2 @@
+No quote drafted for REQ-006.
+Hand back at step 4: item 1 is AUD: the rate sheet cannot answer AUD, so no rate is computed; hand back for the Treasury/BBSW path

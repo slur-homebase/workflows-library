@@ -1,0 +1,18 @@
+Subject: Rate quote - REQ-004
+
+Dear customer,
+
+Thank you for your request. Our indication is set out below.
+
+Item 1 - Drawdown
+Currency and amount: USD 1,500,000
+Value date: 1 October 2026
+End date: 12 November 2026
+Tenor: 42 days
+All-in rate: 5.39% per annum
+Please note: The end date you asked for, 11 November 2026, is a US holiday, so this quote runs to the next business day, 12 November 2026.
+
+This indication is for information only and is not a commitment until confirmed in writing.
+
+Kind regards,
+[SIGN-OFF]

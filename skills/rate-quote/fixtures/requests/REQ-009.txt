@@ -1,0 +1,12 @@
+Request-ID: REQ-009
+Case: edge case, value date earlier than T+2 (asks for 30 Sep on a request received 29 Sep); priced from the forward rate per owner correction 2026-10-14
+Received: 2026-09-29 15:05 SGT
+From: [CUSTOMER_I]
+Subject: Urgent - USD drawdown tomorrow
+
+Hello,
+
+We need to draw USD 2,500,000 under FAC-SYN-0009 with value date 30 September 2026, tenor 30 business days.
+Grateful for your all-in rate as soon as possible.
+
+[SIGN-OFF]

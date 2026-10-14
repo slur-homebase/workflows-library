@@ -1,0 +1,13 @@
+{
+  "request_id": "X-101",
+  "items": [
+    {
+      "item_type": "rollover",
+      "currency": "USD",
+      "amount": 7500000,
+      "value_date": "2026-10-02",
+      "tenor_business_days": 60,
+      "facility_ref": "FAC-SYN-0101"
+    }
+  ]
+}

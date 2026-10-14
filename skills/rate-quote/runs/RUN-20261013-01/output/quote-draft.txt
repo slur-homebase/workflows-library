@@ -1,0 +1,17 @@
+Subject: Rate quote - REQ-001
+
+Dear customer,
+
+Thank you for your request. Our indication is set out below. The margin in the all-in rate was supplied by your relationship manager and remains subject to their confirmation.
+
+Item 1 - Drawdown
+Currency and amount: USD 5,000,000
+Value date: 30 September 2026
+End date: 16 November 2026
+Tenor: 30 business days
+All-in rate: 5.36% per annum
+
+Basis: rate sheet dated 2026-09-28. This indication is for information only and is not a commitment until confirmed in writing.
+
+Kind regards,
+[SIGN-OFF]

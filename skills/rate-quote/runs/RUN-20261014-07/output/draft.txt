@@ -1,0 +1,20 @@
+Subject: Rate quote - REQ-003
+
+Dear customer,
+
+Thank you for your request. Our indication is set out below.
+
+USD repayment
+We note your repayment of USD 2,000,000 on 2 October 2026. No rate applies to this item.
+
+USD rollover
+Amount: USD 3,000,000
+Value date: 2 October 2026
+End date: 18 February 2027
+Tenor: 139 days
+All-in rate: 5.56% per annum
+
+This indication is for information only and is not a commitment until confirmed in writing.
+
+Kind regards,
+[SIGN-OFF]

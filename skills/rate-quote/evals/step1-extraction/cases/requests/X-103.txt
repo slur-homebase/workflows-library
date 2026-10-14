@@ -1,0 +1,12 @@
+Request-ID: X-103
+Case: numeric day/month date, 'million', end date without year
+Received: 2026-09-29 16:45 SGT
+From: [CUSTOMER_J]
+Subject: Rate please
+
+Hi,
+
+Drawdown USD 2.25 million under FAC-SYN-0103. Value date 01/10/2026, maturity 20 Nov.
+Please quote.
+
+[SIGN-OFF]

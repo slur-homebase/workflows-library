@@ -1,0 +1,12 @@
+# Australia (Sydney, NSW) holidays 2026 for AUD settlement. One ISO date per line. Weekends not listed.
+# Anzac Day 25 Apr falls on a Saturday; NSW has no substitute day.
+2026-01-01
+2026-01-26
+2026-04-03
+2026-04-06
+2026-06-08
+2026-08-03 # unverified — NSW bank holiday, banks only
+2026-10-05
+2026-12-25
+2026-12-28
+# 2027 not added: AUD requests are handed back, so no AUD end date is computed.

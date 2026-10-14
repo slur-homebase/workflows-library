@@ -1,0 +1,3 @@
+sheet_date,currency,value_date,maturity_date,fwd_fwd_pct,note
+2026-09-29,USD,2026-10-02,2027-02-18,4.3150,"invented output of the Forward Rate Calculator, Transfer_Pricing tab"
+2026-09-29,USD,2026-09-30,2026-11-16,4.8531,"BH-supplied synthetic forward rate for REQ-009, value date earlier than T+2 (owner 2026-10-14)"

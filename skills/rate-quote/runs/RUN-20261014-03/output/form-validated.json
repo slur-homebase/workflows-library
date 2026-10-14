@@ -1,0 +1,23 @@
+{
+  "request_id": "REQ-003",
+  "items": [
+    {
+      "item_no": 1,
+      "item_type": "repayment",
+      "currency": "USD",
+      "amount": "2000000",
+      "value_date": "2026-10-02",
+      "facility_ref": "FAC-SYN-0003"
+    },
+    {
+      "item_no": 2,
+      "item_type": "rollover",
+      "currency": "USD",
+      "amount": "3000000",
+      "value_date": "2026-10-02",
+      "facility_ref": "FAC-SYN-0003",
+      "tenor_business_days": 90
+    }
+  ],
+  "status": "valid"
+}

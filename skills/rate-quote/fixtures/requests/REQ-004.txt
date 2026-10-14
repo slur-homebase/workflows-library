@@ -1,0 +1,13 @@
+Request-ID: REQ-004
+Case: USD request whose end date lands on a US holiday (11 Nov 2026, Veterans Day; Singapore open)
+Received: 2026-09-29 11:30 SGT
+From: [CUSTOMER_D]
+Subject: USD drawdown quote
+
+Hello,
+
+Drawdown request under FAC-SYN-0004: USD 1,500,000.
+Start date 1 October 2026, end date 11 November 2026.
+Please quote.
+
+[SIGN-OFF]

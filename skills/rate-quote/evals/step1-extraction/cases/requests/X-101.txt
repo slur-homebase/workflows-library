@@ -1,0 +1,9 @@
+Request-ID: X-101
+Case: shorthand amount and tenor, date without year
+Received: 2026-09-29 14:02 SGT
+From: [CUSTOMER_H]
+Subject: rollover
+
+hi, pls roll USD 7.5mio under FAC-SYN-0101 from 2 Oct for 60 BD. thx
+
+[SIGN-OFF]

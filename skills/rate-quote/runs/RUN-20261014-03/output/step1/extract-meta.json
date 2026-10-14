@@ -1,0 +1,41 @@
+{
+  "step": 1,
+  "prompt_version": "step1-v0.3",
+  "model_requested": "claude-haiku-5-5",
+  "request_file": "fixtures/requests/REQ-003.txt",
+  "outcome": "form",
+  "hand_back_reason": null,
+  "model_used": [
+    "claude-haiku-5-5"
+  ],
+  "seconds": 4.92,
+  "raw_output": {
+    "request_id": "REQ-003",
+    "items": [
+      {
+        "item_type": "repayment",
+        "currency": "USD",
+        "amount": 2000000,
+        "value_date": "2026-10-02",
+        "tenor_business_days": null,
+        "end_date": null,
+        "facility_ref": "FAC-SYN-0003"
+      },
+      {
+        "item_type": "rollover",
+        "currency": "USD",
+        "amount": 3000000,
+        "value_date": "2026-10-02",
+        "tenor_business_days": 90,
+        "end_date": null,
+        "facility_ref": "FAC-SYN-0003"
+      }
+    ],
+    "unclear": []
+  },
+  "tokens": {
+    "input": 2133,
+    "output": 537
+  },
+  "form_file": "runs/RUN-20261014-03/output/step1/form.json"
+}

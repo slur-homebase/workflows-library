@@ -1,0 +1,22 @@
+PRE-SEND CHECK: REQ-001 (source values, not ticks)
+outcome: quote_draft
+received: 2026-09-28
+sheet date used: 2026-09-28 (folder rate_sheet_20260928, start_date 2026-09-30, T+2 from received 2026-09-30)
+
+item 1: drawdown USD 5,000,000
+  item outcome: quote
+  table and row read: odd_dates.csv range 2026-11-14 to 2026-11-20 (45-51 days)
+  TP value: 4.2574
+  margin: 1.10 (supplied by RM; REVIEWER CONFIRMS the margin before send)
+  all-in 4 dp: 5.3574
+  customer figure 2 dp, rounded half down: 5.36%
+  value date: 2026-09-30 (as requested; T+2 = 2026-09-30)
+  end date: 2026-11-16 (30 business days counted forward from the value date)
+  tenor in business days: 30
+  num_days (sheet start_date to end date): 47
+  forward rate used: no
+
+draft check (step 11): pass; 2 dates and 3 numbers in the draft compared with computed values
+send capability: none. Nothing was sent, connected or looked up outside the fixture files.
+outputs written to runs/RUN-20261014-02/output
+step 1 (claude-haiku-5-5, prompt step1-v0.3): form

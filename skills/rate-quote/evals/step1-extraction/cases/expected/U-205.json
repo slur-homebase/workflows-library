@@ -1,0 +1,12 @@
+{
+  "request_id": "U-205",
+  "items": [
+    {
+      "item_type": "repayment",
+      "currency": "USD",
+      "amount": 6000000,
+      "value_date": "2026-10-02",
+      "facility_ref": "FAC-SYN-0205"
+    }
+  ]
+}

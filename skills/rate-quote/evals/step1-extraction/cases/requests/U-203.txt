@@ -1,0 +1,11 @@
+Request-ID: U-203
+Case: unseen; no facility reference anywhere; expect hand back
+Received: 2026-09-29 11:00 SGT
+From: [CUSTOMER_N]
+Subject: Quote
+
+Hi,
+
+We would like to draw USD 2,000,000, value 1 October 2026, tenor 20 business days. Please quote.
+
+[SIGN-OFF]

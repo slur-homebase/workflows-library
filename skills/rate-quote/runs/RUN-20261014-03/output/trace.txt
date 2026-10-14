@@ -1,0 +1,28 @@
+PRE-SEND CHECK: REQ-003 (source values, not ticks)
+outcome: quote_draft
+received: 2026-09-29
+sheet date used: 2026-09-29 (folder rate_sheet_20260929, start_date 2026-10-01, T+2 from received 2026-10-01)
+
+item 1: repayment USD 2,000,000
+  item outcome: acknowledge
+  repayment acknowledged on 2026-10-02; no rate
+
+item 2: rollover USD 3,000,000
+  item outcome: quote
+  table and row read: forward_rate_calculator.csv row 2: currency USD, value_date 2026-10-02, maturity_date 2027-02-18, fwd_fwd_pct 4.3150 (folder rate_sheet_20260929)
+  TP value: none; the forward rate stands in for TP
+  forward rate (fwd_fwd_pct): 4.3150
+  margin: 1.25 (supplied by RM; REVIEWER CONFIRMS the margin before send)
+  all-in 4 dp: 5.5650
+  customer figure 2 dp, rounded half down: 5.56%
+  value date: 2026-10-02 (as requested; later than T+2, forward rate path; T+2 = 2026-10-01)
+  end date: 2027-02-18 (90 business days counted forward from the value date)
+  tenor in business days: 90
+  num_days (sheet start_date 2026-10-01 to end date; FORWARD RATE PATH: requested value date 2026-10-02 is later than T+2): 140
+  forward rate used: yes, 4.3150 (forward_rate_calculator.csv row 2 in folder rate_sheet_20260929)
+  forward rate tenor: 139 calendar days (requested value date 2026-10-02 to end date 2027-02-18)
+
+draft check (step 11): pass; 3 dates and 4 numbers in the draft compared with computed values
+send capability: none. Nothing was sent, connected or looked up outside the fixture files.
+outputs written to runs/RUN-20261014-03/output
+step 1 (claude-haiku-5-5, prompt step1-v0.3): form

@@ -1,0 +1,4 @@
+{
+  "expect": "hand_back",
+  "why": "tenor given in months; the model must not convert it"
+}

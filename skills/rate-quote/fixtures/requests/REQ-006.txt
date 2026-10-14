@@ -1,0 +1,13 @@
+Request-ID: REQ-006
+Case: AUD request, to be flagged and handed back, not quoted
+Received: 2026-09-29 09:48 SGT
+From: [CUSTOMER_F]
+Subject: AUD drawdown — rate quote
+
+Hi team,
+
+[CUSTOMER_F] intends to draw AUD 4,000,000 under FAC-SYN-0006.
+Value date 2 October 2026, tenor 90 business days.
+Please advise the rate.
+
+[SIGN-OFF]

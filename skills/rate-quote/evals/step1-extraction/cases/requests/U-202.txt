@@ -1,0 +1,16 @@
+Request-ID: U-202
+Case: unseen; form-style layout, dd-mm-yyyy date, amount with cents
+Received: 2026-09-29 10:15 SGT
+From: [CUSTOMER_M treasury ops]
+Subject: Rollover instruction
+
+Facility: FAC-SYN-0202
+Type: Rollover
+Ccy: USD
+Amount: 10,000,000.00
+Rollover date: 02-10-2026
+New maturity: 4 January 2027
+
+Please send the indicative all-in rate.
+
+[SIGN-OFF]

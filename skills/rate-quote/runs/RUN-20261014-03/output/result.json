@@ -1,0 +1,118 @@
+{
+  "skill": "rate-quote",
+  "skill_version": "0.2",
+  "route": "A script-first (steps 2-9 and 11 by code, forward rate path included; step 10 skipped)",
+  "form_file": "runs/RUN-20261014-03/output/form.json",
+  "received": "2026-09-29",
+  "request_id": "REQ-003",
+  "outcome": "quote_draft",
+  "hand_back_reason": null,
+  "hand_back_step": null,
+  "sheet": {
+    "sheet_date": "2026-09-29",
+    "folder": "rate_sheet_20260929",
+    "start_date": "2026-10-01",
+    "t_plus_2": "2026-10-01"
+  },
+  "grounding": {
+    "status": "ok",
+    "items": [
+      {
+        "item_no": 1,
+        "found_in_text": {
+          "amount": true,
+          "value_date": true,
+          "currency": true
+        }
+      },
+      {
+        "item_no": 2,
+        "found_in_text": {
+          "amount": true,
+          "value_date": true,
+          "tenor_business_days": true,
+          "currency": true
+        }
+      }
+    ],
+    "currency_amounts_in_text": 3,
+    "grounded_on": "newest message only (header lines and quoted earlier messages left out)",
+    "quoted_text_ignored": false
+  },
+  "items": [
+    {
+      "item_no": 1,
+      "item_type": "repayment",
+      "currency": "USD",
+      "amount": "2000000",
+      "value_date": "2026-10-02",
+      "facility_ref": "FAC-SYN-0003",
+      "purpose": "repayment",
+      "forward_rate_used": false,
+      "item_outcome": "acknowledge",
+      "note": "repayment: acknowledged, no quote"
+    },
+    {
+      "item_no": 2,
+      "item_type": "rollover",
+      "currency": "USD",
+      "amount": "3000000",
+      "value_date": "2026-10-02",
+      "facility_ref": "FAC-SYN-0003",
+      "tenor_business_days": 90,
+      "purpose": "rollover",
+      "forward_rate_used": true,
+      "calendars": [
+        "US",
+        "SG"
+      ],
+      "t_plus_2": "2026-10-01",
+      "value_date_requested": "2026-10-02",
+      "value_date_basis": "later than T+2: forward rate path",
+      "end_date_requested": null,
+      "end_date_basis": "90 business days counted forward from the value date",
+      "end_date": "2027-02-18",
+      "adjustments": [],
+      "forward_rate_pct": "4.3150",
+      "lookup": {
+        "table": "forward_rate_calculator",
+        "file": "forward_rate_calculator.csv",
+        "folder": "rate_sheet_20260929",
+        "row": 2,
+        "currency": "USD",
+        "value_date": "2026-10-02",
+        "maturity_date": "2027-02-18",
+        "fwd_fwd_pct": "4.3150",
+        "description": "forward_rate_calculator.csv row 2: currency USD, value_date 2026-10-02, maturity_date 2027-02-18, fwd_fwd_pct 4.3150 (folder rate_sheet_20260929)"
+      },
+      "num_days": 140,
+      "num_days_basis": "sheet start_date 2026-10-01 to end date; FORWARD RATE PATH: requested value date 2026-10-02 is later than T+2",
+      "forward_tenor_days": 139,
+      "tenor_calendar_days": 139,
+      "tp_pct": null,
+      "cost_of_funds_source": "forward_rate_calculator.csv fwd_fwd_pct, in place of TP",
+      "cost_of_funds_pct": "4.3150",
+      "margin_pct": "1.25",
+      "margin_supplied_by": "RM",
+      "all_in_4dp": "5.5650",
+      "customer_rate_2dp": "5.56",
+      "customer_rate": "5.56%",
+      "rounding": "half down (exact 5 in the third decimal rounds down)",
+      "item_outcome": "quote"
+    }
+  ],
+  "draft_check": {
+    "status": "pass",
+    "dates_checked": 3,
+    "numbers_checked": 4,
+    "problems": []
+  },
+  "outputs": {
+    "form-validated.json": "runs/RUN-20261014-03/output/form-validated.json",
+    "result.json": "runs/RUN-20261014-03/output/result.json",
+    "quote-draft.txt": "runs/RUN-20261014-03/output/quote-draft.txt",
+    "pre-send-check.txt": "runs/RUN-20261014-03/output/pre-send-check.txt"
+  },
+  "send_attempted": false,
+  "request_file": "fixtures/requests/REQ-003.txt"
+}

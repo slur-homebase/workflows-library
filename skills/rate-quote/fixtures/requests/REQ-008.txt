@@ -1,0 +1,13 @@
+Request-ID: REQ-008
+Case: edge case, end date exactly on a regular tenor maturity date (1M row of the sheet)
+Received: 2026-09-29 14:20 SGT
+From: [CUSTOMER_H treasury contact]
+Subject: Rate request - USD drawdown, one month
+
+Hi team,
+
+[CUSTOMER_H] would like to draw USD 3,000,000 under facility FAC-SYN-0008.
+Value date 1 October 2026, end date 2 November 2026.
+Please send the all-in rate so we can submit the Notice of Drawdown today.
+
+[SIGN-OFF]

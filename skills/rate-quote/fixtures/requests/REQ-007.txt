@@ -1,0 +1,13 @@
+Request-ID: REQ-007
+Case: USD drawdown with an end date between two regular tenors (Odd_Dates lookup)
+Received: 2026-09-29 10:40 SGT
+From: [CUSTOMER_G treasury contact]
+Subject: Interest rate quote — USD drawdown
+
+Hi team,
+
+[CUSTOMER_G] would like to draw USD 2,000,000 under facility FAC-SYN-0007.
+Value date 1 October 2026, end date 20 November 2026.
+Please quote the all-in rate before we issue the Notice of Drawdown.
+
+[SIGN-OFF]

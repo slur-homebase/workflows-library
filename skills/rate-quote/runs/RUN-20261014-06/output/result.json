@@ -1,0 +1,53 @@
+{
+  "skill": "rate-quote",
+  "skill_version": "0.2",
+  "route": "A script-first (steps 2-9 and 11 by code, forward rate path included; step 10 skipped)",
+  "form_file": "runs/RUN-20261014-06/output/form.json",
+  "received": "2026-09-29",
+  "request_id": "REQ-006",
+  "outcome": "hand_back",
+  "hand_back_reason": "item 1 is AUD: the rate sheet cannot answer AUD, so no rate is computed; hand back for the Treasury/BBSW path",
+  "hand_back_step": 4,
+  "sheet": null,
+  "grounding": {
+    "status": "ok",
+    "items": [
+      {
+        "item_no": 1,
+        "found_in_text": {
+          "amount": true,
+          "value_date": true,
+          "tenor_business_days": true,
+          "currency": true
+        }
+      }
+    ],
+    "currency_amounts_in_text": 1,
+    "grounded_on": "newest message only (header lines and quoted earlier messages left out)",
+    "quoted_text_ignored": false
+  },
+  "items": [
+    {
+      "item_no": 1,
+      "item_type": "drawdown",
+      "currency": "AUD",
+      "amount": "4000000",
+      "value_date": "2026-10-02",
+      "facility_ref": "FAC-SYN-0006",
+      "tenor_business_days": 90,
+      "purpose": "drawdown",
+      "forward_rate_used": false,
+      "item_outcome": "hand_back",
+      "hand_back_reason": "item 1 is AUD: the rate sheet cannot answer AUD, so no rate is computed; hand back for the Treasury/BBSW path"
+    }
+  ],
+  "draft_check": null,
+  "outputs": {
+    "form-validated.json": "runs/RUN-20261014-06/output/form-validated.json",
+    "result.json": "runs/RUN-20261014-06/output/result.json",
+    "quote-draft.txt": "runs/RUN-20261014-06/output/quote-draft.txt",
+    "pre-send-check.txt": "runs/RUN-20261014-06/output/pre-send-check.txt"
+  },
+  "send_attempted": false,
+  "request_file": "fixtures/requests/REQ-006.txt"
+}

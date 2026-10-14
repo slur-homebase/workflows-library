@@ -1,0 +1,13 @@
+{
+  "request_id": "REQ-009",
+  "items": [
+    {
+      "item_type": "drawdown",
+      "currency": "USD",
+      "amount": 2500000,
+      "value_date": "2026-09-30",
+      "tenor_business_days": 30,
+      "facility_ref": "FAC-SYN-0009"
+    }
+  ]
+}

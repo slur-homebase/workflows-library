@@ -1,0 +1,32 @@
+{
+  "step": 1,
+  "prompt_version": "step1-v0.3",
+  "model_requested": "claude-haiku-5-5",
+  "request_file": "fixtures/requests/REQ-001.txt",
+  "outcome": "form",
+  "hand_back_reason": null,
+  "model_used": [
+    "claude-haiku-5-5"
+  ],
+  "seconds": 3.67,
+  "raw_output": {
+    "request_id": "REQ-001",
+    "items": [
+      {
+        "item_type": "drawdown",
+        "currency": "USD",
+        "amount": 5000000,
+        "value_date": "2026-09-30",
+        "tenor_business_days": 30,
+        "end_date": null,
+        "facility_ref": "FAC-SYN-0001"
+      }
+    ],
+    "unclear": []
+  },
+  "tokens": {
+    "input": 2106,
+    "output": 184
+  },
+  "form_file": "runs/RUN-20261014-02/output/step1/form.json"
+}

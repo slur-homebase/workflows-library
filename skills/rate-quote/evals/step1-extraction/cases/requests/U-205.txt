@@ -1,0 +1,11 @@
+Request-ID: U-205
+Case: unseen; repayment only, no quote needed
+Received: 2026-09-29 15:45 SGT
+From: [CUSTOMER_P]
+Subject: Repayment on 2 October
+
+Hi team,
+
+Please note we will repay the full USD 6,000,000 outstanding under FAC-SYN-0205 on 2 October 2026. No rollover is needed.
+
+[SIGN-OFF]

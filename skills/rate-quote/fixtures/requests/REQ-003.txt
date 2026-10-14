@@ -1,0 +1,15 @@
+Request-ID: REQ-003
+Case: bundled message, partial repayment plus rollover
+Received: 2026-09-29 10:05 SGT
+From: [CUSTOMER_C]
+Subject: 2 Oct maturity — repayment and rollover
+
+Hi team,
+
+Two items for the USD 5,000,000 tranche under FAC-SYN-0003 maturing 2 October 2026:
+1. We will repay USD 2,000,000 on maturity.
+2. Please roll the remaining USD 3,000,000 for 90 business days from 2 October.
+
+Quote needed for item 2 only. Please confirm item 1.
+
+[SIGN-OFF]

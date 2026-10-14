@@ -1,0 +1,15 @@
+{
+  "request_id": "REQ-006",
+  "items": [
+    {
+      "item_no": 1,
+      "item_type": "drawdown",
+      "currency": "AUD",
+      "amount": "4000000",
+      "value_date": "2026-10-02",
+      "facility_ref": "FAC-SYN-0006",
+      "tenor_business_days": 90
+    }
+  ],
+  "status": "valid"
+}

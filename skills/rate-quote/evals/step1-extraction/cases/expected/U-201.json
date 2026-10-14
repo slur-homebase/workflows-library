@@ -1,0 +1,21 @@
+{
+  "request_id": "U-201",
+  "items": [
+    {
+      "item_type": "drawdown",
+      "currency": "USD",
+      "amount": 3000000,
+      "value_date": "2026-10-01",
+      "tenor_business_days": 45,
+      "facility_ref": "FAC-SYN-0201"
+    },
+    {
+      "item_type": "drawdown",
+      "currency": "USD",
+      "amount": 1200000,
+      "value_date": "2026-10-02",
+      "end_date": "2026-12-15",
+      "facility_ref": "FAC-SYN-0201"
+    }
+  ]
+}

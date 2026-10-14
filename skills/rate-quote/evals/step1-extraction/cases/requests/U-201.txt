@@ -1,0 +1,15 @@
+Request-ID: U-201
+Case: unseen; two drawdowns in one email, one tenor and one end date
+Received: 2026-09-29 09:05 SGT
+From: [CUSTOMER_L]
+Subject: Two drawdowns next week
+
+Dear team,
+
+Under FAC-SYN-0201 we plan two drawdowns:
+(a) USD 3,000,000 with value date 1 October 2026 for 45 business days; and
+(b) USD 1,200,000 with value date 2 October 2026, maturing 15 December 2026.
+
+Kindly quote both.
+
+[SIGN-OFF]

@@ -1,0 +1,13 @@
+Request-ID: U-204
+Case: unseen; US-style written date, noise numbers in the email
+Received: 2026-09-29 13:30 SGT
+From: [CUSTOMER_O]
+Subject: Drawdown - our ref 2026/117
+
+Hello team,
+
+Thanks for the 3 quotes last week. For this one, we need USD 750,000 under FAC-SYN-0204, value date October 1, 2026, tenor 21 business days.
+
+If anything is unclear, call me on +65 6000 0000 (ext. 214).
+
+[SIGN-OFF]

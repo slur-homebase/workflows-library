@@ -1,0 +1,103 @@
+{
+  "skill": "rate-quote",
+  "skill_version": "0.2",
+  "route": "A script-first (steps 2-9 and 11 by code, forward rate path included; step 10 skipped)",
+  "form_file": "runs/RUN-20261014-04/output/form.json",
+  "received": "2026-09-29",
+  "request_id": "REQ-004",
+  "outcome": "quote_draft",
+  "hand_back_reason": null,
+  "hand_back_step": null,
+  "sheet": {
+    "sheet_date": "2026-09-29",
+    "folder": "rate_sheet_20260929",
+    "start_date": "2026-10-01",
+    "t_plus_2": "2026-10-01"
+  },
+  "grounding": {
+    "status": "ok",
+    "items": [
+      {
+        "item_no": 1,
+        "found_in_text": {
+          "amount": true,
+          "value_date": true,
+          "end_date": true,
+          "currency": true
+        }
+      }
+    ],
+    "currency_amounts_in_text": 1,
+    "grounded_on": "newest message only (header lines and quoted earlier messages left out)",
+    "quoted_text_ignored": false
+  },
+  "items": [
+    {
+      "item_no": 1,
+      "item_type": "drawdown",
+      "currency": "USD",
+      "amount": "1500000",
+      "value_date": "2026-10-01",
+      "facility_ref": "FAC-SYN-0004",
+      "end_date": "2026-11-12",
+      "purpose": "drawdown",
+      "forward_rate_used": false,
+      "calendars": [
+        "US",
+        "SG"
+      ],
+      "t_plus_2": "2026-10-01",
+      "value_date_requested": "2026-10-01",
+      "value_date_basis": "T+2: rate sheet tables",
+      "end_date_requested": "2026-11-11",
+      "end_date_basis": "end date moved to the next business day",
+      "tenor_business_days": 27,
+      "adjustments": [
+        {
+          "field": "end_date",
+          "from": "2026-11-11",
+          "to": "2026-11-12",
+          "reason": "The end date you asked for, 11 November 2026, is a US holiday, so this quote runs to the next business day, 12 November 2026."
+        }
+      ],
+      "num_days": 42,
+      "num_days_basis": "sheet start_date to end date",
+      "tenor_calendar_days": 42,
+      "lookup": {
+        "table": "odd_dates",
+        "file": "odd_dates.csv",
+        "maturity_from": "2026-11-10",
+        "maturity_to": "2026-11-16",
+        "num_days_from": 40,
+        "num_days_to": 46,
+        "tp_pct": "4.2414",
+        "description": "odd_dates.csv range 2026-11-10 to 2026-11-16 (40-46 days)"
+      },
+      "forward_rate_pct": null,
+      "tp_pct": "4.2414",
+      "cost_of_funds_source": "odd_dates.csv tp_pct",
+      "cost_of_funds_pct": "4.2414",
+      "margin_pct": "1.15",
+      "margin_supplied_by": "RM",
+      "all_in_4dp": "5.3914",
+      "customer_rate_2dp": "5.39",
+      "customer_rate": "5.39%",
+      "rounding": "half down (exact 5 in the third decimal rounds down)",
+      "item_outcome": "quote"
+    }
+  ],
+  "draft_check": {
+    "status": "pass",
+    "dates_checked": 4,
+    "numbers_checked": 3,
+    "problems": []
+  },
+  "outputs": {
+    "form-validated.json": "runs/RUN-20261014-04/output/form-validated.json",
+    "result.json": "runs/RUN-20261014-04/output/result.json",
+    "quote-draft.txt": "runs/RUN-20261014-04/output/quote-draft.txt",
+    "pre-send-check.txt": "runs/RUN-20261014-04/output/pre-send-check.txt"
+  },
+  "send_attempted": false,
+  "request_file": "fixtures/requests/REQ-004.txt"
+}

@@ -1,0 +1,17 @@
+Request-ID: X-104
+Case: reply thread; the latest message corrects the amount in the quoted request
+Received: 2026-09-29 17:10 SGT
+From: [CUSTOMER_K]
+Subject: RE: Drawdown quote
+
+Hi team,
+
+Correction to my note below: the amount is USD 4,500,000, not USD 4,000,000. Everything else unchanged.
+
+[SIGN-OFF]
+
+> From: [CUSTOMER_K]
+> Sent: 28 September 2026
+> Subject: Drawdown quote
+>
+> Please quote a USD 4,000,000 drawdown under FAC-SYN-0104, value date 1 October 2026, tenor 30 business days.

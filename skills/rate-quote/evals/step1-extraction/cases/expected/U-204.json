@@ -1,0 +1,13 @@
+{
+  "request_id": "U-204",
+  "items": [
+    {
+      "item_type": "drawdown",
+      "currency": "USD",
+      "amount": 750000,
+      "value_date": "2026-10-01",
+      "tenor_business_days": 21,
+      "facility_ref": "FAC-SYN-0204"
+    }
+  ]
+}
