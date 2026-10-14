@@ -33,7 +33,7 @@ What v0.2 added over v0.1:
 
 ## The twelve steps and who runs each
 
-Copied from `docs/route-option-script-first.md`. This build covers the rows marked "code, built".
+Summarised in `docs/route.md`. This build covers the rows marked "code, built".
 
 | # | Who | Step | On failure | v0.2 |
 |---|---|---|---|---|

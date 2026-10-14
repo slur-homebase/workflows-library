@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """rate-quote step 1: a cheap model reads the request text into the fixed form.
 
-Route A, step 1 (docs/route-option-script-first.md): "Model (cheap). Read the
+Route A, step 1 (docs/route.md): "Model (cheap). Read the
 email into a fixed JSON form ... Form not valid, hand back."
 
 Model choice (BH, 2026-10-13): Haiku 5.5 for routing, classification and

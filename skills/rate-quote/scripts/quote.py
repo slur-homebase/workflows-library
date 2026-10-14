@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """rate-quote v0.2: the deterministic core of the rate-quoting skill.
 
-Runs steps 2 to 9 and 11 of docs/route-option-script-first.md on a step-1
+Runs steps 2 to 9 and 11 of docs/route.md on a step-1
 form. Python 3 standard library only. No network, no mailbox, no send
 capability, no writes outside --out.
 
