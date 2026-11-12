@@ -1,0 +1,1259 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.5",
+  "subject": {
+    "id": "SUB-002",
+    "name": "Tan Wei Quen",
+    "type": "person",
+    "role": "nominee director",
+    "employer": "JKL Trading Pte. Ltd.",
+    "profile": "nominee directorships for trading companies"
+  },
+  "as_of": "2026-10-28",
+  "summary": "Sanctions findings in supplied articles. Coverage remains incomplete.",
+  "findings": [
+    {
+      "article_id": "ART-006",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-006.md",
+      "date": "2026-10-23",
+      "quote": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.",
+      "event_id": "EVT-006",
+      "part_in_story": "sanctioned",
+      "stage": "designation or restriction",
+      "story_evidence": {
+        "part_in_story": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.",
+        "stage": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "employer",
+          "age"
+        ],
+        "stated_fields": {
+          "role": "nominee director",
+          "employer": "JKL Trading Pte. Ltd.",
+          "age": "39"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, employer and age",
+        "readings": [],
+        "chosen_reading": null
+      },
+      "event": "designation",
+      "type": "sanctions",
+      "state": "reported restriction",
+      "assessment": "Invented sanctions event reported on 2026-10-23.",
+      "article_context": []
+    },
+    {
+      "article_id": "ART-024",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-024.md",
+      "date": "2026-10-24",
+      "quote": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.",
+      "event_id": "EVT-006",
+      "part_in_story": "sanctioned",
+      "stage": "designation or restriction",
+      "story_evidence": {
+        "part_in_story": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.",
+        "stage": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "employer",
+          "age"
+        ],
+        "stated_fields": {
+          "role": "nominee director",
+          "employer": "JKL Trading Pte. Ltd.",
+          "age": "39"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, employer and age",
+        "readings": [],
+        "chosen_reading": null
+      },
+      "event": "designation",
+      "type": "sanctions",
+      "state": "reported restriction",
+      "assessment": "Invented sanctions event reported on 2026-10-24.",
+      "article_context": [
+        "Tan declined to comment."
+      ],
+      "links": [
+        {
+          "article_id": "ART-024",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-24",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-24",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      }
+    },
+    {
+      "article_id": "ART-025",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-025.md",
+      "date": "2026-10-27",
+      "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+      "event_id": "EVT-006",
+      "part_in_story": "not stated",
+      "stage": "case closed",
+      "story_evidence": {
+        "part_in_story": null,
+        "stage": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "employer",
+          "age"
+        ],
+        "stated_fields": {
+          "role": "nominee director",
+          "employer": "JKL Trading Pte. Ltd.",
+          "age": "39"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, employer and age",
+        "readings": [],
+        "chosen_reading": null
+      },
+      "event": "delisting or case closed",
+      "type": "sanctions",
+      "state": "reported delisting",
+      "assessment": "Delisting reported on 2026-10-27; no confirmed earlier-case link.",
+      "article_context": [
+        "Tan declined to comment."
+      ],
+      "links": [
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-27",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-24 < 2026-10-27",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-27",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      }
+    },
+    {
+      "article_id": "ART-029",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-029.md",
+      "date": "2026-10-28",
+      "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+      "event_id": "EVT-006",
+      "part_in_story": "not stated",
+      "stage": "case closed",
+      "story_evidence": {
+        "part_in_story": null,
+        "stage": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "employer",
+          "age"
+        ],
+        "stated_fields": {
+          "role": "nominee director",
+          "employer": "JKL Trading Pte. Ltd.",
+          "age": "39"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, employer and age",
+        "readings": [],
+        "chosen_reading": null
+      },
+      "event": "delisting or case closed",
+      "type": "sanctions",
+      "state": "reported delisting",
+      "assessment": "Delisting reported on 2026-10-28; no confirmed earlier-case link.",
+      "article_context": [
+        "Shipping News B could not immediately confirm the delisting with the office.",
+        "Tan declined to comment."
+      ],
+      "links": [
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-24 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-025",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-27 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-28",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      }
+    }
+  ],
+  "possible_matches": [],
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "execution": "completed",
+      "result": "possible hit",
+      "sample_result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-001",
+        "ART-002",
+        "ART-003",
+        "ART-004",
+        "ART-005",
+        "ART-006",
+        "ART-007",
+        "ART-008",
+        "ART-022",
+        "ART-025",
+        "ART-027"
+      ],
+      "coverage": "Only ART-001 through ART-008 in this invented sample."
+    },
+    {
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "execution": "completed",
+      "result": "possible hit",
+      "sample_result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-009",
+        "ART-010",
+        "ART-011",
+        "ART-012",
+        "ART-013",
+        "ART-014",
+        "ART-015",
+        "ART-016",
+        "ART-021",
+        "ART-023",
+        "ART-024",
+        "ART-026",
+        "ART-028",
+        "ART-029"
+      ],
+      "coverage": "Only ART-009 through ART-016 in this invented sample."
+    },
+    {
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "field_as_of": {
+        "execution": "2025-09-01",
+        "result": "2025-09-01",
+        "freshness": "2025-09-01"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-017",
+        "ART-018",
+        "ART-019",
+        "ART-020"
+      ],
+      "coverage": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "source": "Commerce News D",
+      "execution": "failed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "source": "Regional News E",
+      "execution": "not attempted",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "excluded_articles": [
+    {
+      "article_id": "ART-004",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-004.md",
+      "date": "2026-10-21",
+      "quote": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+      "event_id": "EVT-004",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+        "stage": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits."
+      },
+      "identity_check": {
+        "decision": "excluded",
+        "matched_fields": [
+          "name"
+        ],
+        "stated_fields": {
+          "role": "retired harbour clerk",
+          "employer": "PQR Port Services Pte. Ltd.",
+          "age": "67"
+        },
+        "conflicting_fields": [
+          "role",
+          "employer",
+          "age"
+        ],
+        "identity": "matched on name",
+        "readings": [],
+        "chosen_reading": null
+      },
+      "reason": "Exclude this sanctions inquiry: the stated identity fields differ."
+    },
+    {
+      "article_id": "ART-026",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-026.md",
+      "date": "2026-10-25",
+      "quote": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+      "event_id": "EVT-004",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+        "stage": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits."
+      },
+      "identity_check": {
+        "decision": "excluded",
+        "matched_fields": [
+          "name"
+        ],
+        "stated_fields": {
+          "role": "retired harbour clerk",
+          "employer": "PQR Port Services Pte. Ltd.",
+          "age": "67"
+        },
+        "conflicting_fields": [
+          "role",
+          "employer",
+          "age"
+        ],
+        "identity": "matched on name",
+        "readings": [],
+        "chosen_reading": null
+      },
+      "reason": "Exclude this sanctions inquiry: the stated identity fields differ."
+    }
+  ],
+  "non_events": [
+    {
+      "article_id": "ART-005",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-005.md",
+      "date": "2026-10-24",
+      "quote": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., presented a harbour model collection on 2026-10-24.",
+      "event_id": "EVT-005",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., presented a harbour model collection on 2026-10-24.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "employer"
+        ],
+        "stated_fields": {
+          "role": "nominee director",
+          "employer": "JKL Trading Pte. Ltd."
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, employer",
+        "readings": [
+          "same person",
+          "different person",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    },
+    {
+      "article_id": "ART-015",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-015.md",
+      "date": "2026-10-27",
+      "quote": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., donated drawing materials on 2026-10-27.",
+      "event_id": "EVT-014",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., donated drawing materials on 2026-10-27.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "employer"
+        ],
+        "stated_fields": {
+          "role": "nominee director",
+          "employer": "JKL Trading Pte. Ltd."
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, employer",
+        "readings": [
+          "same person",
+          "different person",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    },
+    {
+      "article_id": "ART-020",
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "fixture_file": "articles/ART-020.md",
+      "date": "2025-09-01",
+      "quote": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., visited a model-island display on 2025-09-01.",
+      "event_id": "EVT-019",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., visited a model-island display on 2025-09-01.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "employer"
+        ],
+        "stated_fields": {
+          "role": "nominee director",
+          "employer": "JKL Trading Pte. Ltd."
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, employer",
+        "readings": [
+          "same person",
+          "different person",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    }
+  ],
+  "not_covered": [
+    {
+      "source_id": "SRC-003",
+      "execution": "completed",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "reason": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "execution": "failed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "execution": "not attempted",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "scope": "Supplied invented articles only. No live news search or sanctions-list check.",
+  "decision": "Human review required; tool chooses no disposition.",
+  "comparisons": [
+    {
+      "article_id": "ART-004",
+      "headline": "Harbour clerk Tan Wei Quen faces sanctions inquiry",
+      "outlet": "Business News A",
+      "date": "2026-10-21",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.\n\nThe outlet could not immediately confirm the inquiry with the office. The retired clerk declined to comment. The office was gathering permit records at publication.\n\nHis work focused on harbour permit records.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-004",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+        "stage": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits."
+      },
+      "verdict": "Exclude this sanctions inquiry: the stated identity fields differ.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "harbour permit records",
+          "source_sentence": "His work focused on harbour permit records.",
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Different",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "67",
+          "source_sentence": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+          "subject_value": "39",
+          "status": "Different",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "retired harbour clerk at PQR Port Services Pte. Ltd.",
+          "source_sentence": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Different",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-005",
+      "headline": "Tan Wei Quen presents a harbour model collection",
+      "outlet": "Business News A",
+      "date": "2026-10-24",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., presented a harbour model collection on 2026-10-24.\n\nVisitors viewed models of regional trading vessels and the invented Velquill strait.\n\nHis work focuses on nominee directorships for trading companies.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-005",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., presented a harbour model collection on 2026-10-24.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., presented a harbour model collection on 2026-10-24.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "nominee directorships for trading companies",
+          "source_sentence": "His work focuses on nominee directorships for trading companies.",
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "39",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "nominee director at JKL Trading Pte. Ltd.",
+          "source_sentence": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., presented a harbour model collection on 2026-10-24.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-006",
+      "headline": "Fictional sanctions office travel restriction names Tan Wei Quen",
+      "outlet": "Business News A",
+      "date": "2026-10-23",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.\n\nThe sanctions office's notice prohibits entry through controlled border crossings for ninety days.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-006",
+      "part_in_story": "sanctioned",
+      "stage": "designation or restriction",
+      "story_evidence": {
+        "part_in_story": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.",
+        "stage": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner."
+      },
+      "verdict": "Invented sanctions event reported on 2026-10-23.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "39",
+          "source_sentence": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.",
+          "subject_value": "39",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "nominee director at JKL Trading Pte. Ltd.",
+          "source_sentence": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-015",
+      "headline": "Tan Wei Quen donates drawing materials",
+      "outlet": "Shipping News B",
+      "date": "2026-10-27",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., donated drawing materials on 2026-10-27.\n\nThe materials went to an invented community studio.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-014",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., donated drawing materials on 2026-10-27.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., donated drawing materials on 2026-10-27.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "39",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "nominee director at JKL Trading Pte. Ltd.",
+          "source_sentence": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., donated drawing materials on 2026-10-27.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-020",
+      "headline": "Tan Wei Quen visits a model-island display",
+      "outlet": "Trade News C",
+      "date": "2025-09-01",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "stale",
+        "as_of": "2025-09-01"
+      },
+      "body": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., visited a model-island display on 2025-09-01.\n\nThe display included wooden bridges and painted harbours.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-019",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., visited a model-island display on 2025-09-01.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., visited a model-island display on 2025-09-01.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "38",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "nominee director at JKL Trading Pte. Ltd.",
+          "source_sentence": "Tan Wei Quen, nominee director at JKL Trading Pte. Ltd., visited a model-island display on 2025-09-01.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-024",
+      "headline": "Second outlet reports nominee-director travel restriction",
+      "outlet": "Shipping News B",
+      "date": "2026-10-24",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.\n\nThe office notice prohibits entry through controlled border crossings. Tan declined to comment.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-006",
+      "part_in_story": "sanctioned",
+      "stage": "designation or restriction",
+      "story_evidence": {
+        "part_in_story": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.",
+        "stage": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner."
+      },
+      "verdict": "Invented sanctions event reported on 2026-10-24.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "39",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.",
+          "subject_value": "39",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "nominee director at JKL Trading Pte. Ltd.",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      },
+      "links": [
+        {
+          "article_id": "ART-024",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-24",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-24",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      }
+    },
+    {
+      "article_id": "ART-025",
+      "headline": "Sanctions office lifts nominee-director travel restriction",
+      "outlet": "Business News A",
+      "date": "2026-10-27",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.\n\nThe office said the travel restriction no longer applies. Tan declined to comment.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-006",
+      "part_in_story": "not stated",
+      "stage": "case closed",
+      "story_evidence": {
+        "part_in_story": null,
+        "stage": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+      },
+      "verdict": "Delisting reported on 2026-10-27; no confirmed earlier-case link.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "39",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+          "subject_value": "39",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "nominee director at JKL Trading Pte. Ltd.",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      },
+      "links": [
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-27",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-24 < 2026-10-27",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-27",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      }
+    },
+    {
+      "article_id": "ART-026",
+      "headline": "Retired harbour clerk sanctions permit inquiry continues",
+      "outlet": "Shipping News B",
+      "date": "2026-10-25",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.\n\nShipping News B could not immediately confirm the inquiry with the agency. The retired clerk declined to comment. The agency was gathering permit records.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-004",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+        "stage": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits."
+      },
+      "verdict": "Exclude this sanctions inquiry: the stated identity fields differ.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "67",
+          "source_sentence": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+          "subject_value": "39",
+          "status": "Different",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "retired harbour clerk at PQR Port Services Pte. Ltd.",
+          "source_sentence": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Different",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-029",
+      "headline": "Second outlet reports nominee-director delisting",
+      "outlet": "Shipping News B",
+      "date": "2026-10-28",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.\n\nShipping News B could not immediately confirm the delisting with the office. Tan declined to comment.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-006",
+      "part_in_story": "not stated",
+      "stage": "case closed",
+      "story_evidence": {
+        "part_in_story": null,
+        "stage": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+      },
+      "verdict": "Delisting reported on 2026-10-28; no confirmed earlier-case link.",
+      "fields": {
+        "name": {
+          "value": "Tan Wei Quen",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+          "subject_value": "Tan Wei Quen",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "nominee directorships for trading companies",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "39",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+          "subject_value": "39",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "nominee director at JKL Trading Pte. Ltd.",
+          "source_sentence": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+          "subject_value": "nominee director at JKL Trading Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      },
+      "links": [
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-24 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-025",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-27 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-28",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "article_id": "ART-024",
+      "to_article_id": "ART-006",
+      "tier": "SUGGESTED",
+      "reasons": [
+        "Matched subject identity: Tan Wei Quen",
+        "Same authority: Sanctions Office of Country Y",
+        "Publication date order: 2026-10-23 < 2026-10-24",
+        "Same legal order: Nominee Dealings Order 2025",
+        "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+      ]
+    },
+    {
+      "article_id": "ART-025",
+      "to_article_id": "ART-006",
+      "tier": "SUGGESTED",
+      "reasons": [
+        "Matched subject identity: Tan Wei Quen",
+        "Same authority: Sanctions Office of Country Y",
+        "Publication date order: 2026-10-23 < 2026-10-27",
+        "Same legal order: Nominee Dealings Order 2025",
+        "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+      ]
+    },
+    {
+      "article_id": "ART-025",
+      "to_article_id": "ART-024",
+      "tier": "SUGGESTED",
+      "reasons": [
+        "Matched subject identity: Tan Wei Quen",
+        "Same authority: Sanctions Office of Country Y",
+        "Publication date order: 2026-10-24 < 2026-10-27",
+        "Same legal order: Nominee Dealings Order 2025",
+        "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+      ]
+    },
+    {
+      "article_id": "ART-029",
+      "to_article_id": "ART-006",
+      "tier": "SUGGESTED",
+      "reasons": [
+        "Matched subject identity: Tan Wei Quen",
+        "Same authority: Sanctions Office of Country Y",
+        "Publication date order: 2026-10-23 < 2026-10-28",
+        "Same legal order: Nominee Dealings Order 2025",
+        "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+      ]
+    },
+    {
+      "article_id": "ART-029",
+      "to_article_id": "ART-024",
+      "tier": "SUGGESTED",
+      "reasons": [
+        "Matched subject identity: Tan Wei Quen",
+        "Same authority: Sanctions Office of Country Y",
+        "Publication date order: 2026-10-24 < 2026-10-28",
+        "Same legal order: Nominee Dealings Order 2025",
+        "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+      ]
+    },
+    {
+      "article_id": "ART-029",
+      "to_article_id": "ART-025",
+      "tier": "SUGGESTED",
+      "reasons": [
+        "Matched subject identity: Tan Wei Quen",
+        "Same authority: Sanctions Office of Country Y",
+        "Publication date order: 2026-10-27 < 2026-10-28",
+        "Same legal order: Nominee Dealings Order 2025",
+        "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+      ]
+    }
+  ]
+}

@@ -106,6 +106,47 @@ skills/rate-quote/runs/runs.csv lists every supervised run, and a run not in the
 | RUN-20261014-06 | REQ-006 | count 3, run 5 | hand back | 9/9 | pass |
 | RUN-20261014-07 | REQ-003 | count 3, run 6 | quote draft | 17/17 | pass |
 
+## Sanctions news
+
+A negative result only helps an analyst when the record shows what was checked, what failed, how old each check is and what still needs judgment.
+
+[Live demonstration](https://poppy-maple-75y9.here.now/)
+
+### What it does
+
+The [sanctions-news skill](skills/sanctions-news/SKILL.md) reads invented subjects, a dated source plan and supplied local news articles. It writes evidence-backed JSON and Markdown reports, plus an HTML findings page for each subject. Every finding keeps the source, article id, exact quote and publication date.
+
+The committed [dashboard and news timeline](skills/sanctions-news/demo/dashboard.html) compares the selected subject with the supplied articles. The [findings index](skills/sanctions-news/demo/index.html) opens each subject report. Each findings page also links back to the matching subject in the timeline, where dated marks open the relevant source sentence.
+
+### Why the control design matters
+
+The record separates what an article says from the status of the check. Each source reports whether it ran, what it returned and when it was checked. Failed, skipped, unavailable and stale checks remain visible. A stale result with no finding does not show current coverage, and nothing found is not a clearance.
+
+Identity is kept separate too. A name-only mention remains a possible match, while a stated conflict can be excluded under the frozen sample rule. Suggested links between stories are not confirmed cases. The rule requires matched identity, the same written authority, a later publication date and a shared order or enough shared matter words.
+
+A person must confirm or reject each suggestion and record a reason. That choice stays local to the browser and does not rewrite the evidence, findings, counts or summaries. Local browser storage is a review aid, not a case management system.
+
+### What was checked
+
+Independent review passed 367 repository tests and 34 release-check tests. The bundled answer key passed 38 of 38 checks. The sanctions-news release check also passed for the offline package. These results are software checks, not regulatory approval.
+
+The frozen sample contains 5 invented subjects and 17 output files. Regenerating it reproduced all 17 committed files byte for byte. The timeline navigation change left the findings counts, summaries, report files, dashboard and article bodies unchanged. Browser checks covered the landing page and all 5 findings pages without overlap, horizontal overflow, external requests or JavaScript errors.
+
+### Try the frozen sample
+
+Python 3.9 or newer and the standard library are enough. From the repository root, run:
+
+```
+cd skills/sanctions-news
+python3 scripts/run.py --subjects sample/subjects.json --articles sample/articles --out output
+```
+
+Open `output/dashboard.html` for the comparisons and dated timeline. Open `output/index.html` for links to the 5 subject findings pages. Use a new or empty output folder for each run.
+
+### Limits
+
+The sample and every name in it are invented. There is no live search, runtime model call, sanctions-list screening or general adverse-media review. The parser handles the supplied sample grammar, not arbitrary news text. The skill does not decide whether to clear or escalate a subject, is not deployed and is not connected to an operational system. Human review and separate approval remain required.
+
 ## Data rules
 
 All data here is made up. See DATA-RULES.md for the data rules.

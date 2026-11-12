@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "data_notice": "Invented by Bellion for an offline sample. All names, countries, identifiers, events and outlets are fictional. No real sanctions list or news report is represented.",
+  "subjects": [
+    {
+      "id": "SUB-001",
+      "name": "Quenlith Components Trading",
+      "type": "company",
+      "registration_number": "SYN-NAC-001041",
+      "country": "Nacrevia"
+    },
+    {
+      "id": "SUB-002",
+      "name": "Tan Wei Quen",
+      "type": "person",
+      "date_of_birth": "1987-04-16",
+      "nationality": "Nacrevia",
+      "role": "nominee director",
+      "employer": "Nivrel Trading House",
+      "city": "Orlune"
+    },
+    {
+      "id": "SUB-003",
+      "name": "Veyrindle Ship Management",
+      "type": "company",
+      "registration_number": "SYN-VEL-003082",
+      "country": "Velmora"
+    },
+    {
+      "id": "SUB-004",
+      "name": "Ravi Selquill",
+      "type": "person",
+      "date_of_birth": "1979-12-09",
+      "nationality": "Velmora",
+      "role": "commodity trader",
+      "employer": "Relquill Bunker Trading",
+      "city": "Drelven"
+    },
+    {
+      "id": "SUB-005",
+      "name": "Ossivane Family Imports",
+      "type": "company",
+      "registration_number": "SYN-NAC-005116",
+      "country": "Nacrevia"
+    }
+  ]
+}

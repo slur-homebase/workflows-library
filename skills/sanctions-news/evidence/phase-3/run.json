@@ -1,0 +1,13 @@
+{
+  "authMethod": "claude.ai",
+  "call_count": 33,
+  "call_cap": 40,
+  "started_at": "2026-10-29T05:19:00.361943+00:00",
+  "billing": "API-equivalent, not paid; subscription only; API spend US$0",
+  "prompt_version": "sanctions-article-reader-v1",
+  "status": "BLOCKED",
+  "completed_outputs": 32,
+  "unobserved_reserved_calls": [33],
+  "blocker": "Terminal tool timed out after 420 seconds and interrupted the benchmark. Call 33 was reserved but has no saved output. No further calls made. No resume or budget reset.",
+  "comparison_complete": false
+}

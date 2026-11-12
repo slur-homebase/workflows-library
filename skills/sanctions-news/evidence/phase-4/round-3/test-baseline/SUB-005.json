@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.5",
+  "subject": {
+    "id": "SUB-005",
+    "name": "GHI Family Imports Pte. Ltd.",
+    "type": "company",
+    "profile": "family-run importer of kitchenware"
+  },
+  "as_of": "2026-10-28",
+  "summary": "No findings for GHI Family Imports Pte. Ltd. in the supplied articles from completed sources. SRC-004 failed; SRC-005 was not attempted; SRC-003 covers nothing after 2025-09-01. This is not a clearance.",
+  "findings": [],
+  "possible_matches": [],
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-001",
+        "ART-002",
+        "ART-003",
+        "ART-004",
+        "ART-005",
+        "ART-006",
+        "ART-007",
+        "ART-008"
+      ],
+      "coverage": "Only ART-001 through ART-008 in this invented sample."
+    },
+    {
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-009",
+        "ART-010",
+        "ART-011",
+        "ART-012",
+        "ART-013",
+        "ART-014",
+        "ART-015",
+        "ART-016"
+      ],
+      "coverage": "Only ART-009 through ART-016 in this invented sample."
+    },
+    {
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "field_as_of": {
+        "execution": "2025-09-01",
+        "result": "2025-09-01",
+        "freshness": "2025-09-01"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-017",
+        "ART-018",
+        "ART-019",
+        "ART-020"
+      ],
+      "coverage": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "source": "Commerce News D",
+      "execution": "failed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "source": "Regional News E",
+      "execution": "not attempted",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "excluded_articles": [],
+  "non_events": [
+    {
+      "article_id": "ART-012",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-012.md",
+      "date": "2026-10-22",
+      "quote": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, ran a family import-business packing class on 2026-10-22.",
+      "event_id": "EVT-011",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, ran a family import-business packing class on 2026-10-22.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "family-run importer of kitchenware"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    },
+    {
+      "article_id": "ART-013",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-013.md",
+      "date": "2026-10-27",
+      "quote": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, updated its shop hours on 2026-10-27.",
+      "event_id": "EVT-012",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, updated its shop hours on 2026-10-27.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "family-run importer of kitchenware"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    },
+    {
+      "article_id": "ART-018",
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "fixture_file": "articles/ART-018.md",
+      "date": "2025-08-28",
+      "quote": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, prepared an imported kitchenware display on 2025-08-28.",
+      "event_id": "EVT-017",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, prepared an imported kitchenware display on 2025-08-28.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "family-run importer of kitchenware"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    }
+  ],
+  "not_covered": [
+    {
+      "source_id": "SRC-003",
+      "execution": "completed",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "reason": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "execution": "failed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "execution": "not attempted",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "scope": "Supplied invented articles only. No live news search or sanctions-list check.",
+  "decision": "Human review required; tool chooses no disposition.",
+  "comparisons": [
+    {
+      "article_id": "ART-012",
+      "headline": "GHI Family Imports Pte. Ltd. runs a packing class",
+      "outlet": "Shipping News B",
+      "date": "2026-10-22",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, ran a family import-business packing class on 2026-10-22.\n\nThe small family-run shop demonstrated how to pack imported kitchenware for local delivery.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-011",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, ran a family import-business packing class on 2026-10-22.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "GHI Family Imports Pte. Ltd.",
+          "source_sentence": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, ran a family import-business packing class on 2026-10-22.",
+          "subject_value": "GHI Family Imports Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "family-run importer of kitchenware",
+          "source_sentence": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, ran a family import-business packing class on 2026-10-22.",
+          "subject_value": "family-run importer of kitchenware",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": null,
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-013",
+      "headline": "GHI Family Imports Pte. Ltd. updates its shop hours",
+      "outlet": "Shipping News B",
+      "date": "2026-10-27",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, updated its shop hours on 2026-10-27.\n\nThe shop will open one hour earlier.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-012",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, updated its shop hours on 2026-10-27.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "GHI Family Imports Pte. Ltd.",
+          "source_sentence": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, updated its shop hours on 2026-10-27.",
+          "subject_value": "GHI Family Imports Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "family-run importer of kitchenware",
+          "source_sentence": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, updated its shop hours on 2026-10-27.",
+          "subject_value": "family-run importer of kitchenware",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": null,
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-018",
+      "headline": "GHI Family Imports Pte. Ltd. prepares a kitchenware display",
+      "outlet": "Trade News C",
+      "date": "2025-08-28",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "stale",
+        "as_of": "2025-09-01"
+      },
+      "body": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, prepared an imported kitchenware display on 2025-08-28.\n\nThe display uses folded paper to cushion the cups and bowls.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-017",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, prepared an imported kitchenware display on 2025-08-28.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "GHI Family Imports Pte. Ltd.",
+          "source_sentence": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, prepared an imported kitchenware display on 2025-08-28.",
+          "subject_value": "GHI Family Imports Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "family-run importer of kitchenware",
+          "source_sentence": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, prepared an imported kitchenware display on 2025-08-28.",
+          "subject_value": "family-run importer of kitchenware",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": null,
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    }
+  ]
+}

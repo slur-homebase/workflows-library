@@ -1,0 +1,1798 @@
+{
+  "schema_version": 1,
+  "data_notice": "Invented for an offline sample. All names are placeholders. The sample is local in style only; no real place names are used. No real sanctions list, regulator action or news report is represented.",
+  "run_date": "2026-10-28",
+  "scope": "Human review answer key for this invented article set only. Phase 1 findings are sanctions events only, not general adverse media. Dates on findings and quotes are article publication dates. A cleared historical report is retained, not counted as an open allegation. Source result finding includes historical sanctions events; a case-closure article is context, not a new open finding. These are planned sample results, not executed news research.",
+  "article_front_matter": "Each Markdown file uses exactly eight fields with JSON values: id, source_id, date, headline, subject_ids, part_in_story, stage, event_id. Parse with the standard library only.",
+  "subjects": [
+    {
+      "subject_id": "SUB-001",
+      "summary": "One invented sanctions designation, attributed coverage of the components-routing investigation and civil settlement, and a separate bonded-storage inquiry. Relationship suggestions require human review; the different-order decoy must not be merged. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-001",
+          "type": "sanctions",
+          "article_id": "ART-001",
+          "quote": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.",
+          "date": "2026-10-20",
+          "state": "reported restriction",
+          "must_say": "Report the invented export restriction dated 2026-10-20. Do not claim a real sanctions-list match.",
+          "why": "The article matches the company name and stated profile and reports an authority, action date, legal ground and practical restriction."
+        },
+        {
+          "id": "F-002",
+          "type": "sanctions",
+          "article_id": "ART-002",
+          "quote": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.",
+          "date": "2026-10-22",
+          "state": "allegation unresolved",
+          "must_say": "Report a suspected sanctions-evasion investigation, not proven conduct. The outlet could not immediately confirm it; the company did not respond. No outcome is reported.",
+          "why": "The article matches the company name and stated profile, attributes the investigation and states its verification limit and lack of company response. It does not report a denial."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008",
+            "ART-022",
+            "ART-025",
+            "ART-027"
+          ],
+          "coverage": "Current sanctions designation in ART-001 and unresolved sanctions-evasion investigation in ART-002. Only ART-001 through ART-008 in this invented sample. Round-3 supplied articles: ART-022, ART-025, ART-027."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016",
+            "ART-021",
+            "ART-023",
+            "ART-024",
+            "ART-026",
+            "ART-028",
+            "ART-029"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample. Round-3 supplied articles: ART-021, ART-023, ART-024, ART-026, ART-028, ART-029."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 29 invented articles."
+        }
+      ],
+      "traps": []
+    },
+    {
+      "subject_id": "SUB-002",
+      "summary": "Travel-restriction coverage and later lifting/delisting for the nominee director at JKL Trading Pte. Ltd. Exclude both articles about the age-67 retired harbour clerk at PQR Port Services Pte. Ltd. Relationship suggestions do not themselves change case disposition. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-003",
+          "type": "sanctions",
+          "article_id": "ART-006",
+          "quote": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner.",
+          "date": "2026-10-23",
+          "state": "reported restriction",
+          "must_say": "Report the invented travel restriction for the nominee director at JKL Trading Pte. Ltd. Do not attach the retired harbour clerk's sanctions inquiry.",
+          "why": "The name, role, employer and age match the subject. The article supplies no birth date or nationality."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008",
+            "ART-022",
+            "ART-025",
+            "ART-027"
+          ],
+          "coverage": "Current sanctions travel restriction in ART-006 for the nominee director; exclude the namesake inquiry in ART-004. Only ART-001 through ART-008 in this invented sample. Round-3 supplied articles: ART-022, ART-025, ART-027."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016",
+            "ART-021",
+            "ART-023",
+            "ART-024",
+            "ART-026",
+            "ART-028",
+            "ART-029"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample. Round-3 supplied articles: ART-021, ART-023, ART-024, ART-026, ART-028, ART-029."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 29 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-001",
+          "type": "same_name_different_person",
+          "evidence": [
+            {
+              "article_id": "ART-004",
+              "quote": "According to Business News A on 2026-10-21, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+              "date": "2026-10-21"
+            }
+          ],
+          "other_person": {
+            "name": "Tan Wei Quen",
+            "role": "retired harbour clerk",
+            "employer": "PQR Port Services Pte. Ltd.",
+            "age": "67"
+          },
+          "must_say": "Exclude the sanctions inquiry about the retired harbour clerk at PQR Port Services Pte. Ltd. This subject is the nominee director at JKL Trading Pte. Ltd.",
+          "why": "The name is the same, but the reported role, employer and age differ. Matching the name alone attaches the inquiry to the wrong person."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUB-003",
+      "summary": "One historical sanctions-circumvention investigation, explicitly cleared by authority case closure on 2026-10-24. No open allegation in these articles. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-004",
+          "type": "sanctions",
+          "article_id": "ART-007",
+          "quote": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+          "date": "2025-08-12",
+          "state": "cleared",
+          "resolution": {
+            "article_id": "ART-009",
+            "quote": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.",
+            "date": "2026-10-24"
+          },
+          "must_say": "Keep the August allegation as history and say it was cleared on 2026-10-24. Do not show it as open.",
+          "why": "The authority closes the same vessel-bunkering sanctions case after confirming the services were permitted and removes the company from its local restrictions register. The company name and stated profile match; it is not preferred just because it is newer."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008",
+            "ART-022",
+            "ART-025",
+            "ART-027"
+          ],
+          "coverage": "Finding retained only as history where cleared or stale. Only ART-001 through ART-008 in this invented sample. Round-3 supplied articles: ART-022, ART-025, ART-027."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016",
+            "ART-021",
+            "ART-023",
+            "ART-024",
+            "ART-026",
+            "ART-028",
+            "ART-029"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample. Round-3 supplied articles: ART-021, ART-023, ART-024, ART-026, ART-028, ART-029."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 29 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-002",
+          "type": "old_story_cleared",
+          "evidence": [
+            {
+              "article_id": "ART-007",
+              "quote": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+              "date": "2025-08-12"
+            },
+            {
+              "article_id": "ART-009",
+              "quote": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.",
+              "date": "2026-10-24"
+            }
+          ],
+          "must_say": "Link the old allegation to the later clearing decision. Keep both dates and do not present the allegation as still open.",
+          "why": "ART-009 matches the company name and stated profile and explicitly closes the vessel-bunkering case first reported on 2025-08-12 in ART-007."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUB-004",
+      "summary": "The free-port Customs Agency B investigation has an attributed pickup only. The separate dated maritime sanctions inquiry has no follow-up in any supplied source and remains historical, status unknown. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-005",
+          "type": "sanctions",
+          "article_id": "ART-010",
+          "quote": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "date": "2026-10-25",
+          "state": "allegation unresolved",
+          "must_say": "Report the suspected free-port sanctions-evasion investigation, not proven conduct. The outlet could not immediately confirm it; the commodity trader did not respond. No outcome is reported.",
+          "why": "The name and commodity-trader role match. The report states suspicion, its verification limit and no response, not a denial or finding of guilt."
+        },
+        {
+          "id": "F-006",
+          "type": "sanctions",
+          "article_id": "ART-017",
+          "quote": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+          "date": "2025-08-19",
+          "state": "historical status unknown",
+          "must_say": "Keep the dated maritime sanctions inquiry of 2025-08-19. No follow-up was found in any supplied source; status unknown. SRC-003 coverage stops at 2025-09-01. Do not infer that the inquiry is still open or closed.",
+          "why": "The name and role match. Only ART-017 reports the Nivren quay maritime case. The later free-port investigation concerns Orlath free port, not a development of this case."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008",
+            "ART-022",
+            "ART-025",
+            "ART-027"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-001 through ART-008 in this invented sample. Round-3 supplied articles: ART-022, ART-025, ART-027."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016",
+            "ART-021",
+            "ART-023",
+            "ART-024",
+            "ART-026",
+            "ART-028",
+            "ART-029"
+          ],
+          "coverage": "Unresolved free-port sanctions-evasion investigation in ART-010. Only ART-009 through ART-016 in this invented sample. Round-3 supplied articles: ART-021, ART-023, ART-024, ART-026, ART-028, ART-029."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "Finding retained only as history where cleared or stale. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 29 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-004",
+          "type": "stale_source",
+          "source_id": "SRC-003",
+          "evidence": [
+            {
+              "article_id": "ART-017",
+              "quote": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+              "date": "2025-08-19"
+            }
+          ],
+          "must_say": "SRC-003 is completed, finding, stale, as of 2025-09-01. Keep the dated sanctions inquiry; no follow-up was found in any supplied source and its status is unknown.",
+          "why": "The dated report has no later development in the supplied set. Silence does not establish whether the case is open or closed; the source's stale status remains separate."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUB-005",
+      "summary": "No findings for GHI Family Imports Pte. Ltd. in the supplied articles from completed sources. SRC-004 failed; SRC-005 was not attempted; SRC-003 covers nothing after 2025-09-01. This is not a clearance.",
+      "expected_findings": [],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008",
+            "ART-022",
+            "ART-025",
+            "ART-027"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-001 through ART-008 in this invented sample. Round-3 supplied articles: ART-022, ART-025, ART-027."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016",
+            "ART-021",
+            "ART-023",
+            "ART-024",
+            "ART-026",
+            "ART-028",
+            "ART-029"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample. Round-3 supplied articles: ART-021, ART-023, ART-024, ART-026, ART-028, ART-029."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 29 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-003",
+          "type": "failed_source",
+          "source_id": "SRC-004",
+          "evidence": [],
+          "must_say": "SRC-004 is failed, unavailable, current (planned date only, nothing read), as of 2026-10-28. Never say no finding for this failed check. Retry is still needed.",
+          "why": "An invented timeout returned no articles. The planned snapshot date is current, but no search was completed."
+        },
+        {
+          "id": "T-005",
+          "type": "nothing_found_with_gaps",
+          "evidence": [
+            {
+              "article_id": "ART-012",
+              "quote": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, ran a family import-business packing class on 2026-10-22.",
+              "date": "2026-10-22"
+            },
+            {
+              "article_id": "ART-013",
+              "quote": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, updated its shop hours on 2026-10-27.",
+              "date": "2026-10-27"
+            },
+            {
+              "article_id": "ART-018",
+              "quote": "GHI Family Imports Pte. Ltd., a family-run importer of kitchenware, prepared an imported kitchenware display on 2025-08-28.",
+              "date": "2025-08-28"
+            }
+          ],
+          "must_say": "No findings for GHI Family Imports Pte. Ltd. in the supplied articles from completed sources. SRC-004 failed; SRC-005 was not attempted; SRC-003 covers nothing after 2025-09-01. This is not a clearance.",
+          "why": "The only mentions are ordinary events. All 20 supplied articles were checked, not the whole news universe. Missing and stale coverage remain visible."
+        },
+        {
+          "id": "T-006",
+          "type": "not_attempted_source",
+          "source_id": "SRC-005",
+          "evidence": [],
+          "must_say": "SRC-005 is not attempted, unavailable, current (planned date only, nothing read), as of 2026-10-28. Do not present an unmade check as no finding.",
+          "why": "The source was in the plan but was not read. No article or quote exists for it."
+        }
+      ]
+    }
+  ],
+  "round3_scope": "The original twelve findings/traps and their order are retained unchanged. Round-3 rows are additional checks over nine new invented articles; publication dates remain bounded by existing completed source snapshots. A confirmed relationship is not a case disposition. Suggestions require human review; the bonded-storage decoy is a different matter.",
+  "round3_rows": [
+    {
+      "id": "F-007",
+      "subject_id": "SUB-001",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-021",
+      "quote": "According to Business News A, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor under the Dual-Use Routing Order 2025.",
+      "date": "2026-10-23",
+      "state": "allegation unresolved",
+      "event": "open investigation",
+      "must_say": "Report an attributed pickup of the suspected components-routing sanctions investigation, not proven conduct. Preserve the outlet verification limit and company non-response.",
+      "why": "The same company name and electronic-components profile are repeated. Customs Agency A and the routing conduct match ART-002; the legal order is supplied here without naming an earlier report or date."
+    },
+    {
+      "id": "F-008",
+      "subject_id": "SUB-001",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-022",
+      "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor.",
+      "date": "2026-10-26",
+      "state": "reported settlement",
+      "event": "penalty or settlement",
+      "stage": "settlement",
+      "must_say": "Report the civil settlement of potential liability for apparent violations. The stated settlement sets stage settlement, but is not an admission, conviction or clearance. Keep the settlement separate from the original investigation article.",
+      "why": "The same company, profile, Customs Agency A and dual-use routing conduct appear with the Dual-Use Routing Order 2025. A settlement supplies a later development, not proof of guilt or a clearance."
+    },
+    {
+      "id": "F-009",
+      "subject_id": "SUB-001",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-023",
+      "quote": "According to Shipping News B, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion involving false inventory descriptions for electronic components routed into distributor storage under the Bonded Storage Order 2026.",
+      "date": "2026-10-27",
+      "state": "allegation unresolved",
+      "event": "open investigation",
+      "must_say": "Report this suspected bonded-storage inquiry as a separate matter. Reject the suggested relationship to the components-routing matter after human review; do not merge the legal orders or conduct.",
+      "why": "The company and authority match and generic components/distributor wording overlaps. Bonded Storage Order 2026 and false inventory descriptions concern storage, unlike the Dual-Use Routing Order 2025 routing matter. Metadata uses its own EVT-020."
+    },
+    {
+      "id": "F-010",
+      "subject_id": "SUB-002",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-024",
+      "quote": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner.",
+      "date": "2026-10-24",
+      "state": "reported restriction",
+      "event": "designation",
+      "must_say": "Report an attributed pickup of the nominee-director travel restriction, preserving the role, employer and age. Do not merge the retired clerk.",
+      "why": "The same Sanctions Office of Country Y, Nominee Dealings Order 2025, travel restriction and designated-beneficial-owner conduct match ART-006. Role, employer and age match the nominee director."
+    },
+    {
+      "id": "F-011",
+      "subject_id": "SUB-002",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-025",
+      "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+      "date": "2026-10-27",
+      "state": "reported delisting",
+      "event": "delisting or case closed",
+      "must_say": "Report the lifting and delisting of the nominee-director travel restriction. Do not call this an exoneration or transfer it to the retired clerk.",
+      "why": "The same Sanctions Office of Country Y and Nominee Dealings Order 2025 lift the named nominee director's travel restriction. No earlier report/date is named, so the relationship must be grounded in authority and matter rather than an explicit back-reference."
+    },
+    {
+      "id": "T-007",
+      "subject_id": "SUB-002",
+      "kind": "trap",
+      "type": "same_name_different_person",
+      "evidence": [
+        {
+          "article_id": "ART-026",
+          "quote": "According to Business News A, the Customs Agency A is investigating Tan Wei Quen, 67, a retired harbour clerk at PQR Port Services Pte. Ltd., on suspicion of sanctions circumvention through free-port permits.",
+          "date": "2026-10-25"
+        }
+      ],
+      "other_person": {
+        "name": "Tan Wei Quen",
+        "role": "retired harbour clerk",
+        "employer": "PQR Port Services Pte. Ltd.",
+        "age": "67"
+      },
+      "must_say": "Exclude the retired harbour clerk follow-up from the nominee-director findings and from every suggested or confirmed link. Preserve all three identity conflicts.",
+      "why": "The same-name follow-up repeats age 67, retired harbour clerk and PQR Port Services Pte. Ltd. It concerns ART-004's different person, not the age-39 nominee director."
+    },
+    {
+      "id": "F-012",
+      "subject_id": "SUB-004",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-027",
+      "quote": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+      "date": "2026-10-26",
+      "state": "allegation unresolved",
+      "event": "open investigation",
+      "must_say": "Report an attributed pickup of the suspected fuel-cargo free-port investigation. Preserve uncertainty and non-response; do not develop or link the stale maritime inquiry.",
+      "why": "Customs Agency B, the fuel cargo transhipment conduct, the free port, age and commodity-trader role match ART-010. No Maritime Agency D, quay matter or outcome is reported."
+    },
+    {
+      "id": "F-013",
+      "subject_id": "SUB-001",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-028",
+      "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor.",
+      "date": "2026-10-27",
+      "state": "reported settlement",
+      "event": "penalty or settlement",
+      "stage": "settlement",
+      "must_say": "Report the second outlet's attributed civil-settlement pickup without treating it as independent confirmation. The stated settlement sets stage settlement, but is not an admission, conviction or clearance.",
+      "why": "The quoted settlement has the same company, profile, Customs Agency A, legal order and routing conduct as ART-022. Attribution remains visible; this is pickup coverage, not new independent evidence."
+    },
+    {
+      "id": "F-014",
+      "subject_id": "SUB-002",
+      "kind": "finding",
+      "type": "sanctions",
+      "article_id": "ART-029",
+      "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner.",
+      "date": "2026-10-28",
+      "state": "reported delisting",
+      "event": "delisting or case closed",
+      "must_say": "Report the attributed delisting pickup for the nominee director without implying independent verification or exoneration.",
+      "why": "The same office, order, identity and lifted travel restriction match ART-025. The second outlet states that it could not immediately confirm the delisting."
+    },
+    {
+      "id": "L-001",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-002",
+          "date": "2026-10-22",
+          "quote": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-021",
+          "date": "2026-10-23",
+          "quote": "According to Business News A, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor under the Dual-Use Routing Order 2025."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-021",
+        "to_article_id": "ART-002",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-22 < 2026-10-23",
+          "Shared matter words: distributor, electronic, evasion, routed, third"
+        ]
+      },
+      "must_say": "Show ART-021 -> ART-002 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-002",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-002",
+          "date": "2026-10-22",
+          "quote": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-022",
+          "date": "2026-10-26",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-022",
+        "to_article_id": "ART-002",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-22 < 2026-10-26",
+          "Shared matter words: distributor, electronic, routed, third"
+        ]
+      },
+      "must_say": "Show ART-022 -> ART-002 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-003",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-021",
+          "date": "2026-10-23",
+          "quote": "According to Business News A, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor under the Dual-Use Routing Order 2025."
+        },
+        {
+          "article_id": "ART-022",
+          "date": "2026-10-26",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-022",
+        "to_article_id": "ART-021",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-23 < 2026-10-26",
+          "Same legal order: Dual-Use Routing Order 2025",
+          "Shared matter words: distributor, electronic, routed, third"
+        ]
+      },
+      "must_say": "Show ART-022 -> ART-021 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-004",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-002",
+          "date": "2026-10-22",
+          "quote": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-023",
+          "date": "2026-10-27",
+          "quote": "According to Shipping News B, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion involving false inventory descriptions for electronic components routed into distributor storage under the Bonded Storage Order 2026."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-023",
+        "to_article_id": "ART-002",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-22 < 2026-10-27",
+          "Shared matter words: distributor, electronic, evasion, routed"
+        ]
+      },
+      "must_say": "Show ART-023 -> ART-002 as SUGGESTED with the exact text-grounded reasons. Analyst must reject this different-matter decoy.",
+      "why": "The bonded-storage order and false-inventory conduct differ from the dual-use routing matter. Generic word overlap is not proof of one matter.",
+      "expected_human_decision": {
+        "decision": "Reject",
+        "reason": "Different Bonded Storage Order 2026 and false-inventory storage conduct; not the Dual-Use Routing Order 2025 routing matter."
+      }
+    },
+    {
+      "id": "L-005",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-021",
+          "date": "2026-10-23",
+          "quote": "According to Business News A, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor under the Dual-Use Routing Order 2025."
+        },
+        {
+          "article_id": "ART-023",
+          "date": "2026-10-27",
+          "quote": "According to Shipping News B, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion involving false inventory descriptions for electronic components routed into distributor storage under the Bonded Storage Order 2026."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-023",
+        "to_article_id": "ART-021",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-23 < 2026-10-27",
+          "Shared matter words: distributor, electronic, evasion, routed"
+        ]
+      },
+      "must_say": "Show ART-023 -> ART-021 as SUGGESTED with the exact text-grounded reasons. Analyst must reject this different-matter decoy.",
+      "why": "The bonded-storage order and false-inventory conduct differ from the dual-use routing matter. Generic word overlap is not proof of one matter.",
+      "expected_human_decision": {
+        "decision": "Reject",
+        "reason": "Different Bonded Storage Order 2026 and false-inventory storage conduct; not the Dual-Use Routing Order 2025 routing matter."
+      }
+    },
+    {
+      "id": "L-006",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-022",
+          "date": "2026-10-26",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-023",
+          "date": "2026-10-27",
+          "quote": "According to Shipping News B, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion involving false inventory descriptions for electronic components routed into distributor storage under the Bonded Storage Order 2026."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-023",
+        "to_article_id": "ART-022",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-26 < 2026-10-27",
+          "Shared matter words: distributor, electronic, routed"
+        ]
+      },
+      "must_say": "Show ART-023 -> ART-022 as SUGGESTED with the exact text-grounded reasons. Analyst must reject this different-matter decoy.",
+      "why": "The bonded-storage order and false-inventory conduct differ from the dual-use routing matter. Generic word overlap is not proof of one matter.",
+      "expected_human_decision": {
+        "decision": "Reject",
+        "reason": "Different Bonded Storage Order 2026 and false-inventory storage conduct; not the Dual-Use Routing Order 2025 routing matter."
+      }
+    },
+    {
+      "id": "L-007",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-002",
+          "date": "2026-10-22",
+          "quote": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-028",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-028",
+        "to_article_id": "ART-002",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-22 < 2026-10-27",
+          "Shared matter words: distributor, electronic, routed, third"
+        ]
+      },
+      "must_say": "Show ART-028 -> ART-002 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-008",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-021",
+          "date": "2026-10-23",
+          "quote": "According to Business News A, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor under the Dual-Use Routing Order 2025."
+        },
+        {
+          "article_id": "ART-028",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-028",
+        "to_article_id": "ART-021",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-23 < 2026-10-27",
+          "Same legal order: Dual-Use Routing Order 2025",
+          "Shared matter words: distributor, electronic, routed, third"
+        ]
+      },
+      "must_say": "Show ART-028 -> ART-021 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-009",
+      "subject_id": "SUB-001",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-022",
+          "date": "2026-10-26",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-028",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-028",
+        "to_article_id": "ART-022",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: ABC Components Pte. Ltd.",
+          "Same authority: Customs Agency A",
+          "Publication date order: 2026-10-26 < 2026-10-27",
+          "Same legal order: Dual-Use Routing Order 2025",
+          "Shared matter words: distributor, electronic, routed, third"
+        ]
+      },
+      "must_say": "Show ART-028 -> ART-022 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-010",
+      "subject_id": "SUB-002",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-006",
+          "date": "2026-10-23",
+          "quote": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-024",
+          "date": "2026-10-24",
+          "quote": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-024",
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-24",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      },
+      "must_say": "Show ART-024 -> ART-006 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-011",
+      "subject_id": "SUB-002",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-006",
+          "date": "2026-10-23",
+          "quote": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-025",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-025",
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-27",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      },
+      "must_say": "Show ART-025 -> ART-006 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-012",
+      "subject_id": "SUB-002",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-024",
+          "date": "2026-10-24",
+          "quote": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-025",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-025",
+        "to_article_id": "ART-024",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-24 < 2026-10-27",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      },
+      "must_say": "Show ART-025 -> ART-024 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-013",
+      "subject_id": "SUB-002",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-006",
+          "date": "2026-10-23",
+          "quote": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-029",
+          "date": "2026-10-28",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-029",
+        "to_article_id": "ART-006",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-23 < 2026-10-28",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      },
+      "must_say": "Show ART-029 -> ART-006 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-014",
+      "subject_id": "SUB-002",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-024",
+          "date": "2026-10-24",
+          "quote": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-029",
+          "date": "2026-10-28",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-029",
+        "to_article_id": "ART-024",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-24 < 2026-10-28",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      },
+      "must_say": "Show ART-029 -> ART-024 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-015",
+      "subject_id": "SUB-002",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-025",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-029",
+          "date": "2026-10-28",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-029",
+        "to_article_id": "ART-025",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Tan Wei Quen",
+          "Same authority: Sanctions Office of Country Y",
+          "Publication date order: 2026-10-27 < 2026-10-28",
+          "Same legal order: Nominee Dealings Order 2025",
+          "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+        ]
+      },
+      "must_say": "Show ART-029 -> ART-025 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-016",
+      "subject_id": "SUB-003",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-007",
+          "date": "2025-08-12",
+          "quote": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024."
+        },
+        {
+          "article_id": "ART-009",
+          "date": "2026-10-24",
+          "quote": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-009",
+        "to_article_id": "ART-007",
+        "tier": "CONFIRMED",
+        "reasons": [
+          "Matched subject identity: DEF Ship Management Pte. Ltd.",
+          "Same authority: Enforcement Agency C",
+          "Publication date order: 2025-08-12 < 2026-10-24",
+          "Same legal order: Vessel Services Order 2024",
+          "Shared matter words: bunkering, circumvention, provider",
+          "Explicit earlier-report reference: Business News A on 2025-08-12"
+        ]
+      },
+      "must_say": "Show ART-009 -> ART-007 as CONFIRMED with the exact text-grounded reasons. Explicit reference confirms the relationship.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    },
+    {
+      "id": "L-017",
+      "subject_id": "SUB-004",
+      "kind": "link",
+      "type": "article_relationship",
+      "evidence": [
+        {
+          "article_id": "ART-010",
+          "date": "2026-10-25",
+          "quote": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+        },
+        {
+          "article_id": "ART-027",
+          "date": "2026-10-26",
+          "quote": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+        }
+      ],
+      "expected_link": {
+        "article_id": "ART-027",
+        "to_article_id": "ART-010",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Ravi Selvam",
+          "Same authority: Customs Agency B",
+          "Publication date order: 2026-10-25 < 2026-10-26",
+          "Shared matter words: cargo, commodity, evasion, free, fuel, orlath, port, trader, transhipment"
+        ]
+      },
+      "must_say": "Show ART-027 -> ART-010 as SUGGESTED with the exact text-grounded reasons. Analyst must confirm or reject; do not change findings or status.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review."
+    }
+  ],
+  "relationship_checks": [
+    {
+      "id": "L-001",
+      "subject_id": "SUB-001",
+      "kind": "links",
+      "type": "article_relationships",
+      "evidence": [
+        {
+          "article_id": "ART-002",
+          "date": "2026-10-22",
+          "quote": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-021",
+          "date": "2026-10-23",
+          "quote": "According to Business News A, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor under the Dual-Use Routing Order 2025."
+        },
+        {
+          "article_id": "ART-022",
+          "date": "2026-10-26",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        },
+        {
+          "article_id": "ART-023",
+          "date": "2026-10-27",
+          "quote": "According to Shipping News B, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion involving false inventory descriptions for electronic components routed into distributor storage under the Bonded Storage Order 2026."
+        },
+        {
+          "article_id": "ART-028",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Customs Agency A said ABC Components Pte. Ltd., a distributor of electronic components, agreed to settle potential civil liability for apparent violations of the Dual-Use Routing Order 2025 in a sanctions settlement concerning dual-use components routed via a third-country distributor."
+        }
+      ],
+      "expected_links": [
+        {
+          "article_id": "ART-021",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-22 < 2026-10-23",
+            "Shared matter words: distributor, electronic, evasion, routed, third"
+          ]
+        },
+        {
+          "article_id": "ART-022",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-22 < 2026-10-26",
+            "Shared matter words: distributor, electronic, routed, third"
+          ]
+        },
+        {
+          "article_id": "ART-022",
+          "to_article_id": "ART-021",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-23 < 2026-10-26",
+            "Same legal order: Dual-Use Routing Order 2025",
+            "Shared matter words: distributor, electronic, routed, third"
+          ]
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-22 < 2026-10-27",
+            "Shared matter words: distributor, electronic, evasion, routed"
+          ]
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-021",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-23 < 2026-10-27",
+            "Shared matter words: distributor, electronic, evasion, routed"
+          ]
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-022",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-26 < 2026-10-27",
+            "Shared matter words: distributor, electronic, routed"
+          ]
+        },
+        {
+          "article_id": "ART-028",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-22 < 2026-10-27",
+            "Shared matter words: distributor, electronic, routed, third"
+          ]
+        },
+        {
+          "article_id": "ART-028",
+          "to_article_id": "ART-021",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-23 < 2026-10-27",
+            "Same legal order: Dual-Use Routing Order 2025",
+            "Shared matter words: distributor, electronic, routed, third"
+          ]
+        },
+        {
+          "article_id": "ART-028",
+          "to_article_id": "ART-022",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: ABC Components Pte. Ltd.",
+            "Same authority: Customs Agency A",
+            "Publication date order: 2026-10-26 < 2026-10-27",
+            "Same legal order: Dual-Use Routing Order 2025",
+            "Shared matter words: distributor, electronic, routed, third"
+          ]
+        }
+      ],
+      "must_say": "Show only the text-supported chronological relationships, with exact tier and reasons; exclude identity conflicts and leave the stale maritime inquiry unlinked.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review.",
+      "reviewed_pair_tiers": [
+        {
+          "article_id": "ART-021",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-022",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-022",
+          "to_article_id": "ART-021",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-021",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-022",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-028",
+          "to_article_id": "ART-002",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-028",
+          "to_article_id": "ART-021",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-028",
+          "to_article_id": "ART-022",
+          "tier": "SUGGESTED"
+        }
+      ],
+      "expected_human_decisions": [
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-002",
+          "decision": "Reject",
+          "reason": "Different Bonded Storage Order 2026 and false-inventory storage conduct; not the Dual-Use Routing Order 2025 routing matter."
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-021",
+          "decision": "Reject",
+          "reason": "Different Bonded Storage Order 2026 and false-inventory storage conduct; not the Dual-Use Routing Order 2025 routing matter."
+        },
+        {
+          "article_id": "ART-023",
+          "to_article_id": "ART-022",
+          "decision": "Reject",
+          "reason": "Different Bonded Storage Order 2026 and false-inventory storage conduct; not the Dual-Use Routing Order 2025 routing matter."
+        }
+      ]
+    },
+    {
+      "id": "L-002",
+      "subject_id": "SUB-002",
+      "kind": "links",
+      "type": "article_relationships",
+      "evidence": [
+        {
+          "article_id": "ART-006",
+          "date": "2026-10-23",
+          "quote": "The Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., on 2026-10-23 for lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-024",
+          "date": "2026-10-24",
+          "quote": "According to Business News A, the Sanctions Office of Country Y imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., for lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-025",
+          "date": "2026-10-27",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        },
+        {
+          "article_id": "ART-029",
+          "date": "2026-10-28",
+          "quote": "According to Business News A, the Sanctions Office of Country Y delisted Tan Wei Quen, 39, nominee director at JKL Trading Pte. Ltd., under the Nominee Dealings Order 2025 and lifted the sanctions travel restriction concerning lending his name to a designated beneficial owner."
+        }
+      ],
+      "expected_links": [
+        {
+          "article_id": "ART-024",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-24",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-27",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-24 < 2026-10-27",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-23 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-24 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-025",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Tan Wei Quen",
+            "Same authority: Sanctions Office of Country Y",
+            "Publication date order: 2026-10-27 < 2026-10-28",
+            "Same legal order: Nominee Dealings Order 2025",
+            "Shared matter words: beneficial, director, lending, owner, restriction, trading, travel"
+          ]
+        }
+      ],
+      "must_say": "Show only the text-supported chronological relationships, with exact tier and reasons; exclude identity conflicts and leave the stale maritime inquiry unlinked.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review.",
+      "reviewed_pair_tiers": [
+        {
+          "article_id": "ART-024",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-025",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-006",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-024",
+          "tier": "SUGGESTED"
+        },
+        {
+          "article_id": "ART-029",
+          "to_article_id": "ART-025",
+          "tier": "SUGGESTED"
+        }
+      ]
+    },
+    {
+      "id": "L-003",
+      "subject_id": "SUB-003",
+      "kind": "links",
+      "type": "article_relationships",
+      "evidence": [
+        {
+          "article_id": "ART-007",
+          "date": "2025-08-12",
+          "quote": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024."
+        },
+        {
+          "article_id": "ART-009",
+          "date": "2026-10-24",
+          "quote": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register."
+        }
+      ],
+      "expected_links": [
+        {
+          "article_id": "ART-009",
+          "to_article_id": "ART-007",
+          "tier": "CONFIRMED",
+          "reasons": [
+            "Matched subject identity: DEF Ship Management Pte. Ltd.",
+            "Same authority: Enforcement Agency C",
+            "Publication date order: 2025-08-12 < 2026-10-24",
+            "Same legal order: Vessel Services Order 2024",
+            "Shared matter words: bunkering, circumvention, provider",
+            "Explicit earlier-report reference: Business News A on 2025-08-12"
+          ]
+        }
+      ],
+      "must_say": "Show only the text-supported chronological relationships, with exact tier and reasons; exclude identity conflicts and leave the stale maritime inquiry unlinked.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review.",
+      "reviewed_pair_tiers": [
+        {
+          "article_id": "ART-009",
+          "to_article_id": "ART-007",
+          "tier": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "L-004",
+      "subject_id": "SUB-004",
+      "kind": "links",
+      "type": "article_relationships",
+      "evidence": [
+        {
+          "article_id": "ART-010",
+          "date": "2026-10-25",
+          "quote": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+        },
+        {
+          "article_id": "ART-027",
+          "date": "2026-10-26",
+          "quote": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+        },
+        {
+          "article_id": "ART-017",
+          "date": "2025-08-19",
+          "quote": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay."
+        }
+      ],
+      "expected_links": [
+        {
+          "article_id": "ART-027",
+          "to_article_id": "ART-010",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Ravi Selvam",
+            "Same authority: Customs Agency B",
+            "Publication date order: 2026-10-25 < 2026-10-26",
+            "Shared matter words: cargo, commodity, evasion, free, fuel, orlath, port, trader, transhipment"
+          ]
+        }
+      ],
+      "must_say": "Show only the text-supported chronological relationships, with exact tier and reasons; exclude identity conflicts and leave the stale maritime inquiry unlinked.",
+      "why": "Relationship evidence is the matched identity, increasing publication date, explicit authority, and matching legal order or sufficiently specific shared matter wording. Generic overlap is only a suggestion and requires human review.",
+      "reviewed_pair_tiers": [
+        {
+          "article_id": "ART-027",
+          "to_article_id": "ART-010",
+          "tier": "SUGGESTED"
+        }
+      ]
+    }
+  ]
+}

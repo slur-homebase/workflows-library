@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.5",
+  "subject": {
+    "id": "SUB-001",
+    "name": "ABC Components Pte. Ltd.",
+    "type": "company",
+    "profile": "distributor of electronic components",
+    "key_people": [
+      "Lim Chuen Vek"
+    ]
+  },
+  "as_of": "2026-10-28",
+  "summary": "Sanctions findings in supplied articles. Coverage remains incomplete.",
+  "findings": [
+    {
+      "article_id": "ART-001",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-001.md",
+      "date": "2026-10-20",
+      "quote": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.",
+      "event_id": "EVT-001",
+      "part_in_story": "sanctioned",
+      "stage": "designation or restriction",
+      "story_evidence": {
+        "part_in_story": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.",
+        "stage": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "distributor of electronic components"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "event": "designation",
+      "type": "sanctions",
+      "state": "reported restriction",
+      "assessment": "Invented sanctions event reported on 2026-10-20.",
+      "article_context": []
+    },
+    {
+      "article_id": "ART-002",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-002.md",
+      "date": "2026-10-22",
+      "quote": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.",
+      "event_id": "EVT-002",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.",
+        "stage": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "distributor of electronic components"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "event": "open investigation",
+      "type": "sanctions",
+      "state": "allegation unresolved",
+      "assessment": "Suspected investigation, not proven conduct. No outcome is reported in supplied sources.",
+      "article_context": [
+        "The outlet could not immediately confirm the inquiry with the office.",
+        "The company did not respond to a request for comment."
+      ]
+    }
+  ],
+  "possible_matches": [],
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "execution": "completed",
+      "result": "possible hit",
+      "sample_result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-001",
+        "ART-002",
+        "ART-003",
+        "ART-004",
+        "ART-005",
+        "ART-006",
+        "ART-007",
+        "ART-008"
+      ],
+      "coverage": "Only ART-001 through ART-008 in this invented sample."
+    },
+    {
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-009",
+        "ART-010",
+        "ART-011",
+        "ART-012",
+        "ART-013",
+        "ART-014",
+        "ART-015",
+        "ART-016"
+      ],
+      "coverage": "Only ART-009 through ART-016 in this invented sample."
+    },
+    {
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "field_as_of": {
+        "execution": "2025-09-01",
+        "result": "2025-09-01",
+        "freshness": "2025-09-01"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-017",
+        "ART-018",
+        "ART-019",
+        "ART-020"
+      ],
+      "coverage": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "source": "Commerce News D",
+      "execution": "failed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "source": "Regional News E",
+      "execution": "not attempted",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "excluded_articles": [],
+  "non_events": [
+    {
+      "article_id": "ART-003",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-003.md",
+      "date": "2026-10-25",
+      "quote": "ABC Components Pte. Ltd., a distributor of electronic components, opened a training room on 2026-10-25.",
+      "event_id": "EVT-003",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "ABC Components Pte. Ltd., a distributor of electronic components, opened a training room on 2026-10-25.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "distributor of electronic components"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    },
+    {
+      "article_id": "ART-014",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-014.md",
+      "date": "2026-10-26",
+      "quote": "ABC Components Pte. Ltd., a distributor of electronic components, shared a training schedule on 2026-10-26.",
+      "event_id": "EVT-013",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "ABC Components Pte. Ltd., a distributor of electronic components, shared a training schedule on 2026-10-26.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "distributor of electronic components"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    },
+    {
+      "article_id": "ART-019",
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "fixture_file": "articles/ART-019.md",
+      "date": "2025-08-30",
+      "quote": "ABC Components Pte. Ltd., a distributor of electronic components, planned a components exhibit on 2025-08-30.",
+      "event_id": "EVT-018",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "ABC Components Pte. Ltd., a distributor of electronic components, planned a components exhibit on 2025-08-30.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "distributor of electronic components"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    }
+  ],
+  "not_covered": [
+    {
+      "source_id": "SRC-003",
+      "execution": "completed",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "reason": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "execution": "failed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "execution": "not attempted",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "scope": "Supplied invented articles only. No live news search or sanctions-list check.",
+  "decision": "Human review required; tool chooses no disposition.",
+  "comparisons": [
+    {
+      "article_id": "ART-001",
+      "headline": "Invented trade sanctions office restricts ABC Components Pte. Ltd.",
+      "outlet": "Business News A",
+      "date": "2026-10-20",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.\n\nThe office, which handles foreign trade for the large partner country, said the order targets exports of controlled electronic components through third-country distributors.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-001",
+      "part_in_story": "sanctioned",
+      "stage": "designation or restriction",
+      "story_evidence": {
+        "part_in_story": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.",
+        "stage": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it."
+      },
+      "verdict": "Invented sanctions event reported on 2026-10-20.",
+      "fields": {
+        "name": {
+          "value": "ABC Components Pte. Ltd.",
+          "source_sentence": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.",
+          "subject_value": "ABC Components Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "distributor of electronic components",
+          "source_sentence": "The Trade Sanctions Office of Country X designated ABC Components Pte. Ltd., a distributor of electronic components, under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.",
+          "subject_value": "distributor of electronic components",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "Lim Chuen Vek",
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-002",
+      "headline": "ABC Components Pte. Ltd. faces sanctions-evasion investigation",
+      "outlet": "Business News A",
+      "date": "2026-10-22",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.\n\nThe outlet could not immediately confirm the inquiry with the office. The company did not respond to a request for comment. The inquiry was at its preliminary stage on publication.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-002",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.",
+        "stage": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor."
+      },
+      "verdict": "Suspected investigation, not proven conduct. No outcome is reported in supplied sources.",
+      "fields": {
+        "name": {
+          "value": "ABC Components Pte. Ltd.",
+          "source_sentence": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.",
+          "subject_value": "ABC Components Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "distributor of electronic components",
+          "source_sentence": "According to Business News A on 2026-10-22, the Customs Agency A is investigating ABC Components Pte. Ltd., a distributor of electronic components, on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.",
+          "subject_value": "distributor of electronic components",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "Lim Chuen Vek",
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-003",
+      "headline": "ABC Components Pte. Ltd. opens a training room",
+      "outlet": "Business News A",
+      "date": "2026-10-25",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "ABC Components Pte. Ltd., a distributor of electronic components, opened a training room on 2026-10-25.\n\nThe room holds six desks and a practice bench for packing electronic components for re-export.\n\nIts director is Lim Chuen Vek.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-003",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "ABC Components Pte. Ltd., a distributor of electronic components, opened a training room on 2026-10-25.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "ABC Components Pte. Ltd.",
+          "source_sentence": "ABC Components Pte. Ltd., a distributor of electronic components, opened a training room on 2026-10-25.",
+          "subject_value": "ABC Components Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "distributor of electronic components",
+          "source_sentence": "ABC Components Pte. Ltd., a distributor of electronic components, opened a training room on 2026-10-25.",
+          "subject_value": "distributor of electronic components",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": "Lim Chuen Vek",
+          "source_sentence": "Its director is Lim Chuen Vek.",
+          "subject_value": "Lim Chuen Vek",
+          "status": "Same",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-014",
+      "headline": "ABC Components Pte. Ltd. shares a training schedule",
+      "outlet": "Shipping News B",
+      "date": "2026-10-26",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "ABC Components Pte. Ltd., a distributor of electronic components, shared a training schedule on 2026-10-26.\n\nThe schedule lists training times for the coming week.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-013",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "ABC Components Pte. Ltd., a distributor of electronic components, shared a training schedule on 2026-10-26.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "ABC Components Pte. Ltd.",
+          "source_sentence": "ABC Components Pte. Ltd., a distributor of electronic components, shared a training schedule on 2026-10-26.",
+          "subject_value": "ABC Components Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "distributor of electronic components",
+          "source_sentence": "ABC Components Pte. Ltd., a distributor of electronic components, shared a training schedule on 2026-10-26.",
+          "subject_value": "distributor of electronic components",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "Lim Chuen Vek",
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-019",
+      "headline": "ABC Components Pte. Ltd. plans a components exhibit",
+      "outlet": "Trade News C",
+      "date": "2025-08-30",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "stale",
+        "as_of": "2025-09-01"
+      },
+      "body": "ABC Components Pte. Ltd., a distributor of electronic components, planned a components exhibit on 2025-08-30.\n\nThe exhibit will feature electronic connectors and packing benches.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-018",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "ABC Components Pte. Ltd., a distributor of electronic components, planned a components exhibit on 2025-08-30.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "ABC Components Pte. Ltd.",
+          "source_sentence": "ABC Components Pte. Ltd., a distributor of electronic components, planned a components exhibit on 2025-08-30.",
+          "subject_value": "ABC Components Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "distributor of electronic components",
+          "source_sentence": "ABC Components Pte. Ltd., a distributor of electronic components, planned a components exhibit on 2025-08-30.",
+          "subject_value": "distributor of electronic components",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "Lim Chuen Vek",
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    }
+  ]
+}

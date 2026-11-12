@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "data_notice": "Invented for an offline sample. All names are placeholders. The sample is local in style only; no real place names are used. No real sanctions list, regulator action or news report is represented.",
+  "run_date": "2026-10-28",
+  "freshness_rule": {
+    "max_age_days": 365,
+    "basis": "Source snapshot age, not article age. The 365-day freshness limit is for this sample only, not a regulatory rule."
+  },
+  "status_scope": "Planned sample statuses, not a live search log. Source result means a finding for any monitored subject in its supplied articles. Per-subject results are in answer-key.json. Freshness describes the dated snapshot requested or supplied; current does not mean retrieval succeeded.",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "name": "Business News A",
+      "execution": "completed",
+      "result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "coverage": "Only ART-001 through ART-008 in this invented sample."
+    },
+    {
+      "id": "SRC-002",
+      "name": "Shipping News B",
+      "execution": "completed",
+      "result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "coverage": "Only ART-009 through ART-016 in this invented sample."
+    },
+    {
+      "id": "SRC-003",
+      "name": "Trade News C",
+      "execution": "completed",
+      "result": "finding",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "coverage": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "id": "SRC-004",
+      "name": "Commerce News D",
+      "execution": "failed",
+      "result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "id": "SRC-005",
+      "name": "Regional News E",
+      "execution": "not attempted",
+      "result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ]
+}

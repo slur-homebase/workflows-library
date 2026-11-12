@@ -1,0 +1,426 @@
+{
+  "call_count": 33,
+  "models": {
+    "haiku": {
+      "articles": 20,
+      "verbatim_quotes": 20,
+      "invented_fields": 0,
+      "wrong_event_types": 1,
+      "rejected_records": 20,
+      "missing_records": 0,
+      "unscorable_records": 0,
+      "unobserved_reserved_calls": 0,
+      "diagnostic_fence_unwraps": 20,
+      "calls_reserved": 20,
+      "wall_seconds": 351.00137054100003,
+      "api_equivalent_usd_not_paid": 0.227756,
+      "input_tokens": 16376,
+      "output_tokens": 42276,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "resolved_models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "errors": [
+        {
+          "article_id": "ART-001",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-002",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-003",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-004",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-005",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-006",
+          "errors": [
+            "invalid model JSON or failed CLI result",
+            "wrong event type: expected designation"
+          ]
+        },
+        {
+          "article_id": "ART-007",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-008",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-009",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-010",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-011",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-012",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-013",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-014",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-015",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-016",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-017",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-018",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-019",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-020",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        }
+      ],
+      "replay_rows": [
+        {
+          "row": "F-001",
+          "subject": "SUB-001",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-002",
+          "subject": "SUB-001",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-003",
+          "subject": "SUB-002",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-001",
+          "subject": "SUB-002",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-004",
+          "subject": "SUB-003",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-002",
+          "subject": "SUB-003",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-005",
+          "subject": "SUB-004",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-006",
+          "subject": "SUB-004",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-004",
+          "subject": "SUB-004",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-003",
+          "subject": "SUB-005",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-005",
+          "subject": "SUB-005",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-006",
+          "subject": "SUB-005",
+          "status": "FAIL"
+        }
+      ],
+      "rows_passed": 0,
+      "quote_rate": 1.0,
+      "returned_quote_rate": 1.0,
+      "api_equivalent_per_article_usd_not_paid": 0.0113878,
+      "cost_complete": true,
+      "full_run_api_equivalent_usd_not_paid": 0.227756,
+      "qualifies": false
+    },
+    "sonnet": {
+      "articles": 12,
+      "verbatim_quotes": 12,
+      "invented_fields": 0,
+      "wrong_event_types": 1,
+      "rejected_records": 10,
+      "missing_records": 8,
+      "unscorable_records": 0,
+      "unobserved_reserved_calls": 1,
+      "diagnostic_fence_unwraps": 10,
+      "calls_reserved": 13,
+      "wall_seconds": 65.38841741700003,
+      "api_equivalent_usd_not_paid": 0.08565000000000002,
+      "input_tokens": 24,
+      "output_tokens": 3241,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 13298,
+      "resolved_models": [
+        "claude-sonnet-5"
+      ],
+      "errors": [
+        {
+          "article_id": "ART-001",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-003",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-004",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-005",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-006",
+          "errors": [
+            "invalid model JSON or failed CLI result",
+            "wrong event type: expected designation"
+          ]
+        },
+        {
+          "article_id": "ART-008",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-009",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-010",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-011",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-012",
+          "errors": [
+            "invalid model JSON or failed CLI result"
+          ]
+        },
+        {
+          "article_id": "ART-013",
+          "errors": [
+            "missing recorded output"
+          ]
+        },
+        {
+          "article_id": "ART-014",
+          "errors": [
+            "missing recorded output"
+          ]
+        },
+        {
+          "article_id": "ART-015",
+          "errors": [
+            "missing recorded output"
+          ]
+        },
+        {
+          "article_id": "ART-016",
+          "errors": [
+            "missing recorded output"
+          ]
+        },
+        {
+          "article_id": "ART-017",
+          "errors": [
+            "missing recorded output"
+          ]
+        },
+        {
+          "article_id": "ART-018",
+          "errors": [
+            "missing recorded output"
+          ]
+        },
+        {
+          "article_id": "ART-019",
+          "errors": [
+            "missing recorded output"
+          ]
+        },
+        {
+          "article_id": "ART-020",
+          "errors": [
+            "missing recorded output"
+          ]
+        }
+      ],
+      "replay_rows": [
+        {
+          "row": "F-001",
+          "subject": "SUB-001",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-002",
+          "subject": "SUB-001",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-003",
+          "subject": "SUB-002",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-001",
+          "subject": "SUB-002",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-004",
+          "subject": "SUB-003",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-002",
+          "subject": "SUB-003",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-005",
+          "subject": "SUB-004",
+          "status": "FAIL"
+        },
+        {
+          "row": "F-006",
+          "subject": "SUB-004",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-004",
+          "subject": "SUB-004",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-003",
+          "subject": "SUB-005",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-005",
+          "subject": "SUB-005",
+          "status": "FAIL"
+        },
+        {
+          "row": "T-006",
+          "subject": "SUB-005",
+          "status": "FAIL"
+        }
+      ],
+      "rows_passed": 0,
+      "quote_rate": 0.6,
+      "returned_quote_rate": 1.0,
+      "api_equivalent_per_article_usd_not_paid": 0.0071375000000000015,
+      "cost_complete": false,
+      "full_run_api_equivalent_usd_not_paid": null,
+      "qualifies": false
+    }
+  },
+  "proposed_model": "script-first",
+  "status": "BLOCKED",
+  "comparison_complete": false,
+  "decision_rule": "Pick the lowest CLI-reported API-equivalent total cost among models with 12/12 replay rows, zero invented fields and zero wrong event types. A complete 20-article run is required. If neither qualifies, stay script-first. No prompt or fixture tuning after calls begin.",
+  "consistency": "NOT yet measured: one pass per model, no repeats",
+  "api_spend_usd": 0,
+  "cost_label": "API-equivalent, not paid"
+}

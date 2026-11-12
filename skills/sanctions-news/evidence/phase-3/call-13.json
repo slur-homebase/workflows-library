@@ -1,0 +1,69 @@
+{
+  "call": 13,
+  "model": "haiku",
+  "article_id": "ART-013",
+  "attempt": 1,
+  "body_sha256": "93e4ef70a06f4ccf316bb2eeb50338e69ae5425d64fb49007966bad9bffc380f",
+  "wall_seconds": 10.265327791000004,
+  "returncode": 0,
+  "cli": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "result": "```json\n{\n  \"name\": \"Ossivane Family Imports\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": null,\n  \"country\": \"Nacrevia\",\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"Ossivane Family Imports of Nacrevia updated its shop hours on 2026-10-27.\",\n  \"event_date\": \"2026-10-27\",\n  \"authority\": null\n}\n```",
+    "duration_ms": 9518,
+    "duration_api_ms": 9249,
+    "num_turns": 1,
+    "total_cost_usd": 0.006832,
+    "usage": {
+      "input_tokens": 787,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1209,
+      "output_tokens_details": {
+        "thinking_tokens": 1084
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 787,
+          "output_tokens": 1209,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 0
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 787,
+        "outputTokens": 1209,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "webSearchRequests": 0,
+        "costUSD": 0.006832,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000,
+        "thinkingTokens": 1084,
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "stop_reason": "end_turn"
+  }
+}

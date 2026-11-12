@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.2",
+  "subject": {
+    "id": "SUB-003",
+    "name": "Veyrindle Ship Management",
+    "type": "company",
+    "country": "Velmora"
+  },
+  "as_of": "2026-10-28",
+  "summary": "No findings for Veyrindle Ship Management in the supplied articles from completed sources. SRC-004 failed; SRC-005 was not attempted; SRC-003 covers nothing after 2025-09-01. This is not a clearance. Model reading incomplete: 20 rejected records.",
+  "findings": [],
+  "possible_matches": [],
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "source": "Quenvale Regional Business Wire",
+      "execution": "completed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-001",
+        "ART-002",
+        "ART-003",
+        "ART-004",
+        "ART-005",
+        "ART-006",
+        "ART-007",
+        "ART-008"
+      ],
+      "coverage": "Only ART-001 through ART-008 in this invented sample. Model reading incomplete: ART-001, ART-002, ART-003, ART-004, ART-005, ART-006, ART-007, ART-008. Result unavailable, not no hit."
+    },
+    {
+      "source_id": "SRC-002",
+      "source": "Vellquill Maritime Dispatch",
+      "execution": "completed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-009",
+        "ART-010",
+        "ART-011",
+        "ART-012",
+        "ART-013",
+        "ART-014",
+        "ART-015",
+        "ART-016"
+      ],
+      "coverage": "Only ART-009 through ART-016 in this invented sample. Model reading incomplete: ART-009, ART-010, ART-011, ART-012, ART-013, ART-014, ART-015, ART-016. Result unavailable, not no hit."
+    },
+    {
+      "source_id": "SRC-003",
+      "source": "Nacrethread Trade Chronicle",
+      "execution": "completed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "field_as_of": {
+        "execution": "2025-09-01",
+        "result": "2025-09-01",
+        "freshness": "2025-09-01"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-017",
+        "ART-018",
+        "ART-019",
+        "ART-020"
+      ],
+      "coverage": "Only ART-017 through ART-020. No coverage after 2025-09-01. Model reading incomplete: ART-017, ART-018, ART-019, ART-020. Result unavailable, not no hit."
+    },
+    {
+      "source_id": "SRC-004",
+      "source": "Orivex Commerce Bulletin",
+      "execution": "failed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "source": "Threnquill Regional Review",
+      "execution": "not attempted",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "excluded_articles": [],
+  "non_events": [],
+  "not_covered": [
+    {
+      "source_id": "SRC-001",
+      "execution": "completed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Only ART-001 through ART-008 in this invented sample. Model reading incomplete: ART-001, ART-002, ART-003, ART-004, ART-005, ART-006, ART-007, ART-008. Result unavailable, not no hit."
+    },
+    {
+      "source_id": "SRC-002",
+      "execution": "completed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Only ART-009 through ART-016 in this invented sample. Model reading incomplete: ART-009, ART-010, ART-011, ART-012, ART-013, ART-014, ART-015, ART-016. Result unavailable, not no hit."
+    },
+    {
+      "source_id": "SRC-003",
+      "execution": "completed",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "reason": "Only ART-017 through ART-020. No coverage after 2025-09-01. Model reading incomplete: ART-017, ART-018, ART-019, ART-020. Result unavailable, not no hit."
+    },
+    {
+      "source_id": "SRC-004",
+      "execution": "failed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "execution": "not attempted",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "scope": "Supplied invented articles only. No live news search or sanctions-list check.",
+  "decision": "Human review required; tool chooses no disposition.",
+  "reader": "model",
+  "rejected_records": [
+    {
+      "article_id": "ART-001",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-002",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-003",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-004",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-005",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-006",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-007",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-008",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-009",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-010",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-011",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-012",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-013",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-014",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-015",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-016",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-017",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-018",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-019",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    },
+    {
+      "article_id": "ART-020",
+      "errors": [
+        "invalid model JSON or failed CLI result"
+      ]
+    }
+  ]
+}

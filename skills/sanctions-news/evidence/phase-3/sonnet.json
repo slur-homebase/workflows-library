@@ -1,0 +1,786 @@
+{
+  "prompt_version": "sanctions-article-reader-v1",
+  "model_alias": "sonnet",
+  "articles": {
+    "ART-001": {
+      "body_sha256": "7c833b536ce858b297582bc554b1809ce282dd0891c02139282190c8b42d7668",
+      "wall_seconds": 4.993729250000001,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Quenlith Components Trading\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": \"Nacrevia\",\n  \"country\": null,\n  \"event_type\": \"designation\",\n  \"quote\": \"The Foreign Trade Office of Greater Velloria designated Quenlith Components Trading of Nacrevia under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.\",\n  \"event_date\": \"2026-10-20\",\n  \"authority\": \"The Foreign Trade Office of Greater Velloria\"\n}\n```",
+        "duration_ms": 3908,
+        "duration_api_ms": 3638,
+        "num_turns": 1,
+        "total_cost_usd": 0.006626,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1128,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 211,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1128,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 211,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1128,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1128
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 211,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1128,
+            "webSearchRequests": 0,
+            "costUSD": 0.006626,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-002": {
+      "body_sha256": "4e5c2d2bebc0f7833571afb418830555d136dbccfccc2e3cff297af42b2bc8ab",
+      "wall_seconds": 10.828347416999975,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "{\"name\":\"Quenlith Components Trading\",\"role\":null,\"employer\":null,\"district\":null,\"country\":\"Nacrevia\",\"event_type\":\"open investigation\",\"quote\":\"According to Quenvale Regional Business Wire on 2026-10-22, the Nacrevia Customs Office is investigating Quenlith Components Trading of Nacrevia on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.\",\"event_date\":\"2026-10-22\",\"authority\":\"Nacrevia Customs Office\"}",
+        "duration_ms": 10084,
+        "duration_api_ms": 9784,
+        "num_turns": 1,
+        "total_cost_usd": 0.013246,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1138,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 869,
+          "output_tokens_details": {
+            "thinking_tokens": 693
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1138,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 869,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1138,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1138
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 869,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1138,
+            "webSearchRequests": 0,
+            "costUSD": 0.013246,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 693,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-003": {
+      "body_sha256": "81193b18f8bdbc92c6c1af9402c7607ab3c814c2ecd2f58f0369f76937f91ae3",
+      "wall_seconds": 4.183583583000029,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Quenlith Components Trading\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": null,\n  \"country\": \"Nacrevia\",\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"Quenlith Components Trading of Nacrevia opened a training room on 2026-10-25.\",\n  \"event_date\": \"2026-10-25\",\n  \"authority\": null\n}\n```",
+        "duration_ms": 3113,
+        "duration_api_ms": 2798,
+        "num_turns": 1,
+        "total_cost_usd": 0.00561,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1054,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 139,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1054,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 139,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1054,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1054
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 139,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1054,
+            "webSearchRequests": 0,
+            "costUSD": 0.00561,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-004": {
+      "body_sha256": "2f9d7d2e1c0e463fac1f30db36c0403dd0fb8d5cdc85451ffde3ab237938e1e5",
+      "wall_seconds": 4.614137583999991,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Tan Wei Quen\",\n  \"role\": \"retired harbour clerk\",\n  \"employer\": \"Pelvane Port Services\",\n  \"district\": \"Thirren\",\n  \"country\": null,\n  \"event_type\": \"open investigation\",\n  \"quote\": \"According to Quenvale Regional Business Wire on 2026-10-21, the Nacrevia Customs Office is investigating Tan Wei Quen, a retired harbour clerk at Pelvane Port Services in Thirren, on suspicion of sanctions circumvention through free-port permits.\",\n  \"event_date\": \"2026-10-21\",\n  \"authority\": \"Nacrevia Customs Office\"\n}\n```",
+        "duration_ms": 3352,
+        "duration_api_ms": 3070,
+        "num_turns": 1,
+        "total_cost_usd": 0.006838,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1141,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 227,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1141,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 227,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1141,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1141
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 227,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1141,
+            "webSearchRequests": 0,
+            "costUSD": 0.006838,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-005": {
+      "body_sha256": "14c67413bb5a770553e06be106fa33d06e2bb6c68d3ae8623c3dd40792f525b3",
+      "wall_seconds": 4.398709915999973,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Tan Wei Quen\",\n  \"role\": \"nominee director\",\n  \"employer\": \"Nivrel Trading House\",\n  \"district\": \"Orlune\",\n  \"country\": null,\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"Tan Wei Quen, nominee director at Nivrel Trading House in Orlune, presented a harbour model collection on 2026-10-24.\",\n  \"event_date\": \"2026-10-24\",\n  \"authority\": null\n}\n```",
+        "duration_ms": 3353,
+        "duration_api_ms": 3076,
+        "num_turns": 1,
+        "total_cost_usd": 0.00596,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1074,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 166,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1074,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 166,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1074,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1074
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 166,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1074,
+            "webSearchRequests": 0,
+            "costUSD": 0.00596,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-006": {
+      "body_sha256": "65c7a734b77a446f2605d837ac48967d731aa658350cb0fb0e42bbe0e5a1ff1f",
+      "wall_seconds": 4.709199083000044,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Tan Wei Quen\",\n  \"role\": \"nominee director\",\n  \"employer\": \"Nivrel Trading House\",\n  \"district\": \"Orlune\",\n  \"country\": null,\n  \"event_type\": \"penalty or settlement\",\n  \"quote\": \"The Nacrevia Monetary Office imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, nominee director at Nivrel Trading House in Orlune, on 2026-10-23 for lending his name to a designated beneficial owner.\",\n  \"event_date\": \"2026-10-23\",\n  \"authority\": \"Nacrevia Monetary Office\"\n}\n```",
+        "duration_ms": 3643,
+        "duration_api_ms": 3152,
+        "num_turns": 1,
+        "total_cost_usd": 0.00681,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1129,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 229,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1129,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 229,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1129,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1129
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 229,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1129,
+            "webSearchRequests": 0,
+            "costUSD": 0.00681,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-007": {
+      "body_sha256": "31eefb068edc9f352b5294f8f551fafbce7987f0d8971cdaf22d731752d3dfca",
+      "wall_seconds": 8.334795708999991,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "{\"name\":\"Veyrindle Ship Management\",\"role\":null,\"employer\":null,\"district\":\"Velmora\",\"country\":null,\"event_type\":\"open investigation\",\"quote\":\"According to Quenvale Regional Business Wire on 2025-08-12, the Velmora Regional Enforcement Agency is investigating Veyrindle Ship Management of Velmora on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.\",\"event_date\":\"2025-08-12\",\"authority\":\"Velmora Regional Enforcement Agency\"}",
+        "duration_ms": 7598,
+        "duration_api_ms": 7004,
+        "num_turns": 1,
+        "total_cost_usd": 0.009899999999999999,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1149,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 530,
+          "output_tokens_details": {
+            "thinking_tokens": 333
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1149,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 530,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1149,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1149
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 530,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1149,
+            "webSearchRequests": 0,
+            "costUSD": 0.009899999999999999,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 333,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-008": {
+      "body_sha256": "5a9381c53e21442e9e631a7d62701a4a2986f1154731231d6c5bf2a57754b7cb",
+      "wall_seconds": 4.597709166000016,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Veyrindle Ship Management\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": \"Velmora\",\n  \"country\": null,\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"Veyrindle Ship Management of Velmora showed a new vessel model on 2026-10-26.\",\n  \"event_date\": \"2026-10-26\",\n  \"authority\": null\n}\n```",
+        "duration_ms": 3325,
+        "duration_api_ms": 2824,
+        "num_turns": 1,
+        "total_cost_usd": 0.005624,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1055,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 140,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1055,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 140,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1055,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1055
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 140,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1055,
+            "webSearchRequests": 0,
+            "costUSD": 0.005624,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-009": {
+      "body_sha256": "823ce8b76ff9f288f7e89679b47230b894769553d726325a1f9dad4d31d732c6",
+      "wall_seconds": 5.549921667000035,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Veyrindle Ship Management\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": \"Velmora\",\n  \"country\": null,\n  \"event_type\": \"delisting or case closed\",\n  \"quote\": \"The Velmora Regional Enforcement Agency announced that it cleared Veyrindle Ship Management of Velmora on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.\",\n  \"event_date\": \"2026-10-24\",\n  \"authority\": \"The Velmora Regional Enforcement Agency\"\n}\n```",
+        "duration_ms": 4355,
+        "duration_api_ms": 3848,
+        "num_turns": 1,
+        "total_cost_usd": 0.00693,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1149,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 233,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1149,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 233,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1149,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1149
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 233,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1149,
+            "webSearchRequests": 0,
+            "costUSD": 0.00693,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-010": {
+      "body_sha256": "1d664e85294b7e17e79b667f334fa9845f617542bffd4878352d68b66bb7bbb2",
+      "wall_seconds": 4.708719041999984,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Ravi Selquill\",\n  \"role\": \"a commodity trader\",\n  \"employer\": null,\n  \"district\": \"Drelven\",\n  \"country\": null,\n  \"event_type\": \"open investigation\",\n  \"quote\": \"According to Vellquill Maritime Dispatch on 2026-10-25, the Velmora Customs Office is investigating Ravi Selquill, a commodity trader in Drelven, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.\",\n  \"event_date\": \"2026-10-25\",\n  \"authority\": \"Velmora Customs Office\"\n}\n```",
+        "duration_ms": 3655,
+        "duration_api_ms": 3158,
+        "num_turns": 1,
+        "total_cost_usd": 0.0066820000000000004,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1147,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 209,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1147,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 209,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1147,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1147
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 209,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1147,
+            "webSearchRequests": 0,
+            "costUSD": 0.0066820000000000004,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-011": {
+      "body_sha256": "75ecdcdc6d71160488dd23ce33deb353209b18682c83dddd7eec163c2bddda93",
+      "wall_seconds": 4.101778749999994,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Ravi Selquill\",\n  \"role\": \"commodity trader\",\n  \"employer\": null,\n  \"district\": \"Drelven\",\n  \"country\": null,\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"Ravi Selquill, a commodity trader in Drelven, spoke at a commodity trading event on 2026-10-26.\",\n  \"event_date\": \"2026-10-26\",\n  \"authority\": null\n}\n```",
+        "duration_ms": 2949,
+        "duration_api_ms": 2268,
+        "num_turns": 1,
+        "total_cost_usd": 0.005784,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1070,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 150,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1070,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 150,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1070,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1070
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 150,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1070,
+            "webSearchRequests": 0,
+            "costUSD": 0.005784,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    },
+    "ART-012": {
+      "body_sha256": "09d354a3d65955cc5f0025305b3a217e7242dd85d90e26aeb5b1092df07d15a4",
+      "wall_seconds": 4.367786249999995,
+      "returncode": 0,
+      "cli": {
+        "type": "result",
+        "subtype": "success",
+        "is_error": false,
+        "result": "```json\n{\n  \"name\": \"Ossivane Family Imports of Nacrevia\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": null,\n  \"country\": null,\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"The small family-run shop demonstrated how to pack imported kitchenware for local delivery.\",\n  \"event_date\": \"2026-10-22\",\n  \"authority\": null\n}\n```",
+        "duration_ms": 3273,
+        "duration_api_ms": 2765,
+        "num_turns": 1,
+        "total_cost_usd": 0.00564,
+        "usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1064,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 138,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1064,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 138,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 1064,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1064
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "claude-sonnet-5": {
+            "inputTokens": 2,
+            "outputTokens": 138,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 1064,
+            "webSearchRequests": 0,
+            "costUSD": 0.00564,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 64000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-sonnet-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "stop_reason": "end_turn"
+      }
+    }
+  }
+}

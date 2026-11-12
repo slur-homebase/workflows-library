@@ -1,0 +1,69 @@
+{
+  "call": 25,
+  "model": "sonnet",
+  "article_id": "ART-005",
+  "attempt": 1,
+  "body_sha256": "14c67413bb5a770553e06be106fa33d06e2bb6c68d3ae8623c3dd40792f525b3",
+  "wall_seconds": 4.398709915999973,
+  "returncode": 0,
+  "cli": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "result": "```json\n{\n  \"name\": \"Tan Wei Quen\",\n  \"role\": \"nominee director\",\n  \"employer\": \"Nivrel Trading House\",\n  \"district\": \"Orlune\",\n  \"country\": null,\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"Tan Wei Quen, nominee director at Nivrel Trading House in Orlune, presented a harbour model collection on 2026-10-24.\",\n  \"event_date\": \"2026-10-24\",\n  \"authority\": null\n}\n```",
+    "duration_ms": 3353,
+    "duration_api_ms": 3076,
+    "num_turns": 1,
+    "total_cost_usd": 0.00596,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1074,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 166,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1074,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 166,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 1074,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1074
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-sonnet-5": {
+        "inputTokens": 2,
+        "outputTokens": 166,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 1074,
+        "webSearchRequests": 0,
+        "costUSD": 0.00596,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 0,
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "stop_reason": "end_turn"
+  }
+}

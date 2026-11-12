@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.5",
+  "subject": {
+    "id": "SUB-004",
+    "name": "Ravi Selvam",
+    "type": "person",
+    "role": "commodity trader",
+    "employer": "MNO Bunkering Pte. Ltd.",
+    "profile": "commodity trader in bunker fuel"
+  },
+  "as_of": "2026-10-28",
+  "summary": "Sanctions findings in supplied articles. Coverage remains incomplete.",
+  "findings": [
+    {
+      "article_id": "ART-010",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-010.md",
+      "date": "2026-10-25",
+      "quote": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+      "event_id": "EVT-009",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+        "stage": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "age"
+        ],
+        "stated_fields": {
+          "role": "commodity trader",
+          "age": "46"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, age",
+        "readings": [
+          "same person",
+          "different person",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "event": "open investigation",
+      "type": "sanctions",
+      "state": "allegation unresolved",
+      "assessment": "Suspected investigation, not proven conduct. No outcome is reported in supplied sources.",
+      "article_context": [
+        "The outlet could not immediately confirm the inquiry with the office.",
+        "The commodity trader did not respond to a request for comment."
+      ]
+    },
+    {
+      "article_id": "ART-017",
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "fixture_file": "articles/ART-017.md",
+      "date": "2025-08-19",
+      "quote": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+      "event_id": "EVT-016",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+        "stage": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role"
+        ],
+        "stated_fields": {
+          "role": "commodity trader"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role",
+        "readings": [
+          "same person",
+          "different person",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "event": "historical investigation",
+      "type": "sanctions",
+      "state": "historical status unknown",
+      "assessment": "Dated finding, no follow-up found in supplied sources, status unknown.",
+      "article_context": [
+        "The outlet could not immediately confirm the inquiry with the office.",
+        "The commodity trader declined to comment."
+      ]
+    },
+    {
+      "article_id": "ART-027",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-027.md",
+      "date": "2026-10-26",
+      "quote": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+      "event_id": "EVT-009",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+        "stage": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role",
+          "age"
+        ],
+        "stated_fields": {
+          "role": "commodity trader",
+          "age": "46"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role, age",
+        "readings": [
+          "same person",
+          "different person",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "event": "open investigation",
+      "type": "sanctions",
+      "state": "allegation unresolved",
+      "assessment": "Suspected investigation, not proven conduct. No outcome is reported in supplied sources.",
+      "article_context": [
+        "Business News A could not immediately confirm the inquiry with the agency.",
+        "The commodity trader did not respond to a request for comment."
+      ],
+      "links": [
+        {
+          "article_id": "ART-027",
+          "to_article_id": "ART-010",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Ravi Selvam",
+            "Same authority: Customs Agency B",
+            "Publication date order: 2026-10-25 < 2026-10-26",
+            "Shared matter words: cargo, commodity, evasion, free, fuel, orlath, port, trader, transhipment"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-010",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Ravi Selvam",
+          "Same authority: Customs Agency B",
+          "Publication date order: 2026-10-25 < 2026-10-26",
+          "Shared matter words: cargo, commodity, evasion, free, fuel, orlath, port, trader, transhipment"
+        ]
+      }
+    }
+  ],
+  "possible_matches": [],
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "execution": "completed",
+      "result": "possible hit",
+      "sample_result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-001",
+        "ART-002",
+        "ART-003",
+        "ART-004",
+        "ART-005",
+        "ART-006",
+        "ART-007",
+        "ART-008",
+        "ART-022",
+        "ART-025",
+        "ART-027"
+      ],
+      "coverage": "Only ART-001 through ART-008 in this invented sample."
+    },
+    {
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "execution": "completed",
+      "result": "possible hit",
+      "sample_result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-009",
+        "ART-010",
+        "ART-011",
+        "ART-012",
+        "ART-013",
+        "ART-014",
+        "ART-015",
+        "ART-016",
+        "ART-021",
+        "ART-023",
+        "ART-024",
+        "ART-026",
+        "ART-028",
+        "ART-029"
+      ],
+      "coverage": "Only ART-009 through ART-016 in this invented sample."
+    },
+    {
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "execution": "completed",
+      "result": "possible hit",
+      "sample_result": "finding",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "field_as_of": {
+        "execution": "2025-09-01",
+        "result": "2025-09-01",
+        "freshness": "2025-09-01"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-017",
+        "ART-018",
+        "ART-019",
+        "ART-020"
+      ],
+      "coverage": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "source": "Commerce News D",
+      "execution": "failed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "source": "Regional News E",
+      "execution": "not attempted",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "excluded_articles": [],
+  "non_events": [
+    {
+      "article_id": "ART-011",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-011.md",
+      "date": "2026-10-26",
+      "quote": "Ravi Selvam, a commodity trader, spoke at a commodity trading event on 2026-10-26.",
+      "event_id": "EVT-010",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Ravi Selvam, a commodity trader, spoke at a commodity trading event on 2026-10-26.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "role"
+        ],
+        "stated_fields": {
+          "role": "commodity trader"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, role",
+        "readings": [
+          "same person",
+          "different person",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    }
+  ],
+  "not_covered": [
+    {
+      "source_id": "SRC-003",
+      "execution": "completed",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "reason": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "execution": "failed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "execution": "not attempted",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "scope": "Supplied invented articles only. No live news search or sanctions-list check.",
+  "decision": "Human review required; tool chooses no disposition.",
+  "comparisons": [
+    {
+      "article_id": "ART-010",
+      "headline": "Ravi Selvam faces free-port sanctions-evasion investigation",
+      "outlet": "Shipping News B",
+      "date": "2026-10-25",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.\n\nThe outlet could not immediately confirm the inquiry with the office. The commodity trader did not respond to a request for comment. The office was gathering free-port shipment records at publication.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-009",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+        "stage": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+      },
+      "verdict": "Suspected investigation, not proven conduct. No outcome is reported in supplied sources.",
+      "fields": {
+        "name": {
+          "value": "Ravi Selvam",
+          "source_sentence": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "subject_value": "Ravi Selvam",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "commodity trader in bunker fuel",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "46",
+          "source_sentence": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "subject_value": "46",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "commodity trader",
+          "source_sentence": "According to Shipping News B on 2026-10-25, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "subject_value": "commodity trader at MNO Bunkering Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": "Role only. Employer not stated in this article."
+        }
+      }
+    },
+    {
+      "article_id": "ART-011",
+      "headline": "Ravi Selvam speaks at a commodity trading event",
+      "outlet": "Shipping News B",
+      "date": "2026-10-26",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "Ravi Selvam, a commodity trader, spoke at a commodity trading event on 2026-10-26.\n\nThe talk covered fuel storage and vessel scheduling for MNO Bunkering Pte. Ltd.\n\nHe works as a commodity trader in bunker fuel.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-010",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "Ravi Selvam, a commodity trader, spoke at a commodity trading event on 2026-10-26.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "Ravi Selvam",
+          "source_sentence": "Ravi Selvam, a commodity trader, spoke at a commodity trading event on 2026-10-26.",
+          "subject_value": "Ravi Selvam",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "commodity trader in bunker fuel",
+          "source_sentence": "He works as a commodity trader in bunker fuel.",
+          "subject_value": "commodity trader in bunker fuel",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "46",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "commodity trader",
+          "source_sentence": "Ravi Selvam, a commodity trader, spoke at a commodity trading event on 2026-10-26.",
+          "subject_value": "commodity trader at MNO Bunkering Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": "Role only. Employer not stated in this article."
+        }
+      }
+    },
+    {
+      "article_id": "ART-017",
+      "headline": "Ravi Selvam faces maritime sanctions inquiry",
+      "outlet": "Trade News C",
+      "date": "2025-08-19",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "stale",
+        "as_of": "2025-09-01"
+      },
+      "body": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.\n\nThe outlet could not immediately confirm the inquiry with the office. The commodity trader declined to comment. The office was gathering maritime cargo records at publication.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-016",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+        "stage": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay."
+      },
+      "verdict": "Dated finding, no follow-up found in supplied sources, status unknown.",
+      "fields": {
+        "name": {
+          "value": "Ravi Selvam",
+          "source_sentence": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+          "subject_value": "Ravi Selvam",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "commodity trader in bunker fuel",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "45",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "commodity trader",
+          "source_sentence": "According to Trade News C on 2025-08-19, the Maritime Agency D is investigating Ravi Selvam, a commodity trader, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+          "subject_value": "commodity trader at MNO Bunkering Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": "Role only. Employer not stated in this article."
+        }
+      }
+    },
+    {
+      "article_id": "ART-027",
+      "headline": "Second outlet reports commodity-trader sanctions inquiry",
+      "outlet": "Business News A",
+      "date": "2026-10-26",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.\n\nBusiness News A could not immediately confirm the inquiry with the agency. The commodity trader did not respond to a request for comment.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-009",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+        "stage": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port."
+      },
+      "verdict": "Suspected investigation, not proven conduct. No outcome is reported in supplied sources.",
+      "fields": {
+        "name": {
+          "value": "Ravi Selvam",
+          "source_sentence": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "subject_value": "Ravi Selvam",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": "commodity trader in bunker fuel",
+          "status": "Not stated",
+          "comparison_note": ""
+        },
+        "age": {
+          "value": "46",
+          "source_sentence": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "subject_value": "46",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "position": {
+          "value": "commodity trader",
+          "source_sentence": "According to Shipping News B, the Customs Agency B is investigating Ravi Selvam, 46, a commodity trader, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "subject_value": "commodity trader at MNO Bunkering Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": "Role only. Employer not stated in this article."
+        }
+      },
+      "links": [
+        {
+          "article_id": "ART-027",
+          "to_article_id": "ART-010",
+          "tier": "SUGGESTED",
+          "reasons": [
+            "Matched subject identity: Ravi Selvam",
+            "Same authority: Customs Agency B",
+            "Publication date order: 2026-10-25 < 2026-10-26",
+            "Shared matter words: cargo, commodity, evasion, free, fuel, orlath, port, trader, transhipment"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-010",
+        "tier": "SUGGESTED",
+        "reasons": [
+          "Matched subject identity: Ravi Selvam",
+          "Same authority: Customs Agency B",
+          "Publication date order: 2026-10-25 < 2026-10-26",
+          "Shared matter words: cargo, commodity, evasion, free, fuel, orlath, port, trader, transhipment"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "article_id": "ART-027",
+      "to_article_id": "ART-010",
+      "tier": "SUGGESTED",
+      "reasons": [
+        "Matched subject identity: Ravi Selvam",
+        "Same authority: Customs Agency B",
+        "Publication date order: 2026-10-25 < 2026-10-26",
+        "Shared matter words: cargo, commodity, evasion, free, fuel, orlath, port, trader, transhipment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "call": 8,
+  "model": "haiku",
+  "article_id": "ART-008",
+  "attempt": 1,
+  "body_sha256": "5a9381c53e21442e9e631a7d62701a4a2986f1154731231d6c5bf2a57754b7cb",
+  "wall_seconds": 31.045350667000008,
+  "returncode": 0,
+  "cli": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "result": "```json\n{\n  \"name\": \"Veyrindle Ship Management\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": null,\n  \"country\": null,\n  \"event_type\": \"not a sanctions event\",\n  \"quote\": \"Veyrindle Ship Management of Velmora showed a new vessel model on 2026-10-26.\",\n  \"event_date\": \"2026-10-26\",\n  \"authority\": null\n}\n```",
+    "duration_ms": 30414,
+    "duration_api_ms": 30148,
+    "num_turns": 1,
+    "total_cost_usd": 0.018822,
+    "usage": {
+      "input_tokens": 797,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3605,
+      "output_tokens_details": {
+        "thinking_tokens": 3484
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 797,
+          "output_tokens": 3605,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 0
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 797,
+        "outputTokens": 3605,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "webSearchRequests": 0,
+        "costUSD": 0.018822,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000,
+        "thinkingTokens": 3484,
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "stop_reason": "end_turn"
+  }
+}

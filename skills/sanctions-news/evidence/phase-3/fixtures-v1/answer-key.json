@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "data_notice": "Invented by Bellion for an offline sample. All names, countries, identifiers, events and outlets are fictional. No real sanctions list or news report is represented.",
+  "run_date": "2026-10-28",
+  "scope": "Human review answer key for this invented article set only. Phase 1 findings are sanctions events only, not general adverse media. Dates on findings and quotes are article publication dates. A cleared historical report is retained, not counted as an open allegation. Source result finding includes historical sanctions events; a case-closure article is context, not a new open finding. These are planned sample results, not executed news research.",
+  "article_front_matter": "Each Markdown file uses five fields with JSON values, a valid subset of YAML: id, source_id, date, headline, subject_ids. Parse with the standard library only.",
+  "subjects": [
+    {
+      "subject_id": "SUB-001",
+      "summary": "One invented sanctions designation and one unresolved sanctions-evasion investigation. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-001",
+          "type": "sanctions",
+          "article_id": "ART-001",
+          "quote": "The Foreign Trade Office of Greater Velloria designated Quenlith Components Trading of Nacrevia under the Controlled Components Order 2024 on 2026-10-20, imposing a sanctions restriction that blocks its assets and prohibits dealings with it.",
+          "date": "2026-10-20",
+          "state": "reported restriction",
+          "must_say": "Report the invented export restriction dated 2026-10-20. Do not claim a real sanctions-list match.",
+          "why": "The article matches the company name and country and reports an authority, action date, legal ground and practical restriction."
+        },
+        {
+          "id": "F-002",
+          "type": "sanctions",
+          "article_id": "ART-002",
+          "quote": "According to Quenvale Regional Business Wire on 2026-10-22, the Nacrevia Customs Office is investigating Quenlith Components Trading of Nacrevia on suspicion of sanctions evasion through dual-use components routed via a third-country distributor.",
+          "date": "2026-10-22",
+          "state": "allegation unresolved",
+          "must_say": "Report a suspected sanctions-evasion investigation, not proven conduct. The outlet could not immediately confirm it; the company did not respond. No outcome is reported.",
+          "why": "The article matches the company name and country, attributes the investigation and states its verification limit and lack of company response. It does not report a denial."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008"
+          ],
+          "coverage": "Current sanctions designation in ART-001 and unresolved sanctions-evasion investigation in ART-002. Only ART-001 through ART-008 in this invented sample."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 20 invented articles."
+        }
+      ],
+      "traps": []
+    },
+    {
+      "subject_id": "SUB-002",
+      "summary": "One invented sanctions travel restriction for the nominee director at Nivrel Trading House in Orlune. Exclude the retired Thirren harbour clerk's sanctions inquiry. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-003",
+          "type": "sanctions",
+          "article_id": "ART-006",
+          "quote": "The Nacrevia Monetary Office imposed a sanctions travel restriction under the Nominee Dealings Order 2025 on Tan Wei Quen, nominee director at Nivrel Trading House in Orlune, on 2026-10-23 for lending his name to a designated beneficial owner.",
+          "date": "2026-10-23",
+          "state": "reported restriction",
+          "must_say": "Report the invented travel restriction for the nominee director at Nivrel Trading House in Orlune. Do not attach the retired Thirren harbour clerk's sanctions inquiry.",
+          "why": "The name, role, employer and city match the subject. The article supplies no birth date or nationality."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008"
+          ],
+          "coverage": "Current sanctions travel restriction in ART-006 for the Orlune nominee director; exclude the Thirren namesake inquiry in ART-004. Only ART-001 through ART-008 in this invented sample."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 20 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-001",
+          "type": "same_name_different_person",
+          "evidence": [
+            {
+              "article_id": "ART-004",
+              "quote": "According to Quenvale Regional Business Wire on 2026-10-21, the Nacrevia Customs Office is investigating Tan Wei Quen, a retired harbour clerk at Pelvane Port Services in Thirren, on suspicion of sanctions circumvention through free-port permits.",
+              "date": "2026-10-21"
+            }
+          ],
+          "other_person": {
+            "name": "Tan Wei Quen",
+            "role": "retired harbour clerk",
+            "employer": "Pelvane Port Services",
+            "city": "Thirren"
+          },
+          "must_say": "Exclude the sanctions inquiry about the retired harbour clerk at Pelvane Port Services in Thirren. This subject is the nominee director at Nivrel Trading House in Orlune.",
+          "why": "The name is the same, but the reported role, employer and city differ. Matching the name alone attaches the inquiry to the wrong person."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUB-003",
+      "summary": "One historical sanctions-circumvention investigation, explicitly cleared by authority case closure on 2026-10-24. No open allegation in these articles. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-004",
+          "type": "sanctions",
+          "article_id": "ART-007",
+          "quote": "According to Quenvale Regional Business Wire on 2025-08-12, the Velmora Regional Enforcement Agency is investigating Veyrindle Ship Management of Velmora on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+          "date": "2025-08-12",
+          "state": "cleared",
+          "resolution": {
+            "article_id": "ART-009",
+            "quote": "The Velmora Regional Enforcement Agency announced that it cleared Veyrindle Ship Management of Velmora on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.",
+            "date": "2026-10-24"
+          },
+          "must_say": "Keep the August allegation as history and say it was cleared on 2026-10-24. Do not show it as open.",
+          "why": "The authority closes the same vessel-bunkering sanctions case after confirming the services were permitted and removes the company from its local restrictions register. The company name and country match; it is not preferred just because it is newer."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008"
+          ],
+          "coverage": "Finding retained only as history where cleared or stale. Only ART-001 through ART-008 in this invented sample."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 20 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-002",
+          "type": "old_story_cleared",
+          "evidence": [
+            {
+              "article_id": "ART-007",
+              "quote": "According to Quenvale Regional Business Wire on 2025-08-12, the Velmora Regional Enforcement Agency is investigating Veyrindle Ship Management of Velmora on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+              "date": "2025-08-12"
+            },
+            {
+              "article_id": "ART-009",
+              "quote": "The Velmora Regional Enforcement Agency announced that it cleared Veyrindle Ship Management of Velmora on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.",
+              "date": "2026-10-24"
+            }
+          ],
+          "must_say": "Link the old allegation to the later clearing decision. Keep both dates and do not present the allegation as still open.",
+          "why": "ART-009 matches the company name and country and explicitly closes the vessel-bunkering case first reported on 2025-08-12 in ART-007."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUB-004",
+      "summary": "One unresolved free-port sanctions-evasion investigation and one dated maritime sanctions inquiry with no follow-up found in any supplied source, status unknown. Coverage remains incomplete.",
+      "expected_findings": [
+        {
+          "id": "F-005",
+          "type": "sanctions",
+          "article_id": "ART-010",
+          "quote": "According to Vellquill Maritime Dispatch on 2026-10-25, the Velmora Customs Office is investigating Ravi Selquill, a commodity trader in Drelven, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.",
+          "date": "2026-10-25",
+          "state": "allegation unresolved",
+          "must_say": "Report the suspected free-port sanctions-evasion investigation, not proven conduct. The outlet could not immediately confirm it; the commodity trader did not respond. No outcome is reported.",
+          "why": "The name, commodity-trader role and Drelven city match. The report states suspicion, its verification limit and no response, not a denial or finding of guilt."
+        },
+        {
+          "id": "F-006",
+          "type": "sanctions",
+          "article_id": "ART-017",
+          "quote": "According to Nacrethread Trade Chronicle on 2025-08-19, the Velmora Maritime Enforcement Office is investigating Ravi Selquill, a commodity trader in Drelven, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+          "date": "2025-08-19",
+          "state": "historical status unknown",
+          "must_say": "Keep the dated maritime sanctions inquiry of 2025-08-19. No follow-up was found in any supplied source; status unknown. SRC-003 coverage stops at 2025-09-01. Do not infer that the inquiry is still open or closed.",
+          "why": "The name, role and city match. Only ART-017 reports the Nivren quay maritime case. The later free-port investigation concerns Orlath free port, not a development of this case."
+        }
+      ],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-001 through ART-008 in this invented sample."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016"
+          ],
+          "coverage": "Unresolved free-port sanctions-evasion investigation in ART-010. Only ART-009 through ART-016 in this invented sample."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "Finding retained only as history where cleared or stale. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 20 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-004",
+          "type": "stale_source",
+          "source_id": "SRC-003",
+          "evidence": [
+            {
+              "article_id": "ART-017",
+              "quote": "According to Nacrethread Trade Chronicle on 2025-08-19, the Velmora Maritime Enforcement Office is investigating Ravi Selquill, a commodity trader in Drelven, on suspicion of sanctions circumvention through fuel cargoes shipped from Nivren quay.",
+              "date": "2025-08-19"
+            }
+          ],
+          "must_say": "SRC-003 is completed, finding, stale, as of 2025-09-01. Keep the dated sanctions inquiry; no follow-up was found in any supplied source and its status is unknown.",
+          "why": "The dated report has no later development in the supplied set. Silence does not establish whether the case is open or closed; the source's stale status remains separate."
+        }
+      ]
+    },
+    {
+      "subject_id": "SUB-005",
+      "summary": "No findings for Ossivane Family Imports in the supplied articles from completed sources. SRC-004 failed; SRC-005 was not attempted; SRC-003 covers nothing after 2025-09-01. This is not a clearance.",
+      "expected_findings": [],
+      "expected_source_statuses": [
+        {
+          "source_id": "SRC-001",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-001",
+            "ART-002",
+            "ART-003",
+            "ART-004",
+            "ART-005",
+            "ART-006",
+            "ART-007",
+            "ART-008"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-001 through ART-008 in this invented sample."
+        },
+        {
+          "source_id": "SRC-002",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [
+            "ART-009",
+            "ART-010",
+            "ART-011",
+            "ART-012",
+            "ART-013",
+            "ART-014",
+            "ART-015",
+            "ART-016"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-009 through ART-016 in this invented sample."
+        },
+        {
+          "source_id": "SRC-003",
+          "execution": "completed",
+          "result": "no finding",
+          "freshness": "stale",
+          "as_of": "2025-09-01",
+          "article_ids_checked": [
+            "ART-017",
+            "ART-018",
+            "ART-019",
+            "ART-020"
+          ],
+          "coverage": "No expected finding for this subject in these supplied articles only. Only ART-017 through ART-020. No coverage after 2025-09-01."
+        },
+        {
+          "source_id": "SRC-004",
+          "execution": "failed",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "execution": "not attempted",
+          "result": "unavailable",
+          "freshness": "current",
+          "as_of": "2026-10-28",
+          "article_ids_checked": [],
+          "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+        }
+      ],
+      "not_covered": [
+        {
+          "source_id": "SRC-003",
+          "reason": "No coverage after 2025-09-01; the snapshot is stale for this run."
+        },
+        {
+          "source_id": "SRC-004",
+          "reason": "Source failed with an invented timeout; result unavailable, not no finding. Retry required."
+        },
+        {
+          "source_id": "SRC-005",
+          "reason": "Source not attempted; result unavailable, not no finding. Check still required."
+        },
+        {
+          "source_id": null,
+          "reason": "No live news search, real sanctions-list check, ownership research or material outside these 20 invented articles."
+        }
+      ],
+      "traps": [
+        {
+          "id": "T-003",
+          "type": "failed_source",
+          "source_id": "SRC-004",
+          "evidence": [],
+          "must_say": "SRC-004 is failed, unavailable, current (planned date only, nothing read), as of 2026-10-28. Never say no finding for this failed check. Retry is still needed.",
+          "why": "An invented timeout returned no articles. The planned snapshot date is current, but no search was completed."
+        },
+        {
+          "id": "T-005",
+          "type": "nothing_found_with_gaps",
+          "evidence": [
+            {
+              "article_id": "ART-012",
+              "quote": "Ossivane Family Imports of Nacrevia ran a family import-business packing class on 2026-10-22.",
+              "date": "2026-10-22"
+            },
+            {
+              "article_id": "ART-013",
+              "quote": "Ossivane Family Imports of Nacrevia updated its shop hours on 2026-10-27.",
+              "date": "2026-10-27"
+            },
+            {
+              "article_id": "ART-018",
+              "quote": "Ossivane Family Imports of Nacrevia prepared an imported kitchenware display on 2025-08-28.",
+              "date": "2025-08-28"
+            }
+          ],
+          "must_say": "No findings for Ossivane Family Imports in the supplied articles from completed sources. SRC-004 failed; SRC-005 was not attempted; SRC-003 covers nothing after 2025-09-01. This is not a clearance.",
+          "why": "The only mentions are ordinary events. All 20 supplied articles were checked, not the whole news universe. Missing and stale coverage remain visible."
+        },
+        {
+          "id": "T-006",
+          "type": "not_attempted_source",
+          "source_id": "SRC-005",
+          "evidence": [],
+          "must_say": "SRC-005 is not attempted, unavailable, current (planned date only, nothing read), as of 2026-10-28. Do not present an unmade check as no finding.",
+          "why": "The source was in the plan but was not read. No article or quote exists for it."
+        }
+      ]
+    }
+  ]
+}

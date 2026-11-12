@@ -1,0 +1,69 @@
+{
+  "call": 7,
+  "model": "haiku",
+  "article_id": "ART-007",
+  "attempt": 1,
+  "body_sha256": "31eefb068edc9f352b5294f8f551fafbce7987f0d8971cdaf22d731752d3dfca",
+  "wall_seconds": 26.594681667000003,
+  "returncode": 0,
+  "cli": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "result": "```json\n{\n  \"name\": \"Veyrindle Ship Management\",\n  \"role\": null,\n  \"employer\": null,\n  \"district\": \"Velmora\",\n  \"country\": null,\n  \"event_type\": \"open investigation\",\n  \"quote\": \"According to Quenvale Regional Business Wire on 2025-08-12, the Velmora Regional Enforcement Agency is investigating Veyrindle Ship Management of Velmora on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.\",\n  \"event_date\": \"2025-08-12\",\n  \"authority\": \"Velmora Regional Enforcement Agency\"\n}\n```",
+    "duration_ms": 25864,
+    "duration_api_ms": 25601,
+    "num_turns": 1,
+    "total_cost_usd": 0.016893,
+    "usage": {
+      "input_tokens": 853,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3208,
+      "output_tokens_details": {
+        "thinking_tokens": 3031
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 853,
+          "output_tokens": 3208,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 0
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 853,
+        "outputTokens": 3208,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "webSearchRequests": 0,
+        "costUSD": 0.016893,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000,
+        "thinkingTokens": 3031,
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "stop_reason": "end_turn"
+  }
+}

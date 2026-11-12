@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "data_notice": "Invented for an offline sample. All names are placeholders. The sample is local in style only; no real place names are used. No real sanctions list, regulator action or news report is represented.",
+  "subjects": [
+    {
+      "id": "SUB-001",
+      "name": "ABC Components Pte. Ltd.",
+      "type": "company",
+      "registration_number": "SYN-SG-001041",
+      "profile": "distributor of electronic components",
+      "key_people": [
+        "Lim Chuen Vek"
+      ]
+    },
+    {
+      "id": "SUB-002",
+      "name": "Tan Wei Quen",
+      "type": "person",
+      "date_of_birth": "1987-04-16",
+      "role": "nominee director",
+      "employer": "JKL Trading Pte. Ltd.",
+      "profile": "nominee directorships for trading companies"
+    },
+    {
+      "id": "SUB-003",
+      "name": "DEF Ship Management Pte. Ltd.",
+      "type": "company",
+      "registration_number": "SYN-SG-003082",
+      "profile": "provider of vessel bunkering services"
+    },
+    {
+      "id": "SUB-004",
+      "name": "Ravi Selvam",
+      "type": "person",
+      "date_of_birth": "1979-12-09",
+      "role": "commodity trader",
+      "employer": "MNO Bunkering Pte. Ltd.",
+      "profile": "commodity trader in bunker fuel"
+    },
+    {
+      "id": "SUB-005",
+      "name": "GHI Family Imports Pte. Ltd.",
+      "type": "company",
+      "registration_number": "SYN-SG-005116",
+      "profile": "family-run importer of kitchenware"
+    }
+  ]
+}

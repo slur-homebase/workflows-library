@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "skill_version": "0.5",
+  "subject": {
+    "id": "SUB-003",
+    "name": "DEF Ship Management Pte. Ltd.",
+    "type": "company",
+    "profile": "provider of vessel bunkering services"
+  },
+  "as_of": "2026-10-28",
+  "summary": "Sanctions findings in supplied articles. Coverage remains incomplete.",
+  "findings": [
+    {
+      "article_id": "ART-007",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-007.md",
+      "date": "2025-08-12",
+      "quote": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+      "event_id": "EVT-007",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+        "stage": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024."
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "provider of vessel bunkering services"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "event": "historical investigation",
+      "type": "sanctions",
+      "resolution": {
+        "article_id": "ART-009",
+        "source_id": "SRC-002",
+        "source": "Shipping News B",
+        "fixture_file": "articles/ART-009.md",
+        "date": "2026-10-24",
+        "quote": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.",
+        "event_id": "EVT-007",
+        "part_in_story": "not stated",
+        "stage": "case closed",
+        "story_evidence": {
+          "part_in_story": null,
+          "stage": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register."
+        },
+        "identity_check": {
+          "decision": "matched",
+          "matched_fields": [
+            "name",
+            "profile"
+          ],
+          "stated_fields": {
+            "profile": "provider of vessel bunkering services"
+          },
+          "conflicting_fields": [],
+          "identity": "matched on name, profile",
+          "readings": [
+            "same entity",
+            "different entity",
+            "not enough evidence"
+          ],
+          "chosen_reading": null
+        },
+        "event": "delisting or case closed",
+        "links": [
+          {
+            "article_id": "ART-009",
+            "to_article_id": "ART-007",
+            "tier": "CONFIRMED",
+            "reasons": [
+              "Matched subject identity: DEF Ship Management Pte. Ltd.",
+              "Same authority: Enforcement Agency C",
+              "Publication date order: 2025-08-12 < 2026-10-24",
+              "Same legal order: Vessel Services Order 2024",
+              "Shared matter words: bunkering, circumvention, provider",
+              "Explicit earlier-report reference: Business News A on 2025-08-12"
+            ]
+          }
+        ],
+        "link": {
+          "to_article_id": "ART-007",
+          "tier": "CONFIRMED",
+          "reasons": [
+            "Matched subject identity: DEF Ship Management Pte. Ltd.",
+            "Same authority: Enforcement Agency C",
+            "Publication date order: 2025-08-12 < 2026-10-24",
+            "Same legal order: Vessel Services Order 2024",
+            "Shared matter words: bunkering, circumvention, provider",
+            "Explicit earlier-report reference: Business News A on 2025-08-12"
+          ]
+        }
+      },
+      "state": "cleared",
+      "assessment": "Historical allegation; case was cleared on 2026-10-24.",
+      "article_context": [
+        "The outlet could not immediately confirm the inquiry with the agency.",
+        "The company declined to comment."
+      ]
+    }
+  ],
+  "possible_matches": [],
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "execution": "completed",
+      "result": "possible hit",
+      "sample_result": "finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-001",
+        "ART-002",
+        "ART-003",
+        "ART-004",
+        "ART-005",
+        "ART-006",
+        "ART-007",
+        "ART-008",
+        "ART-022",
+        "ART-025",
+        "ART-027"
+      ],
+      "coverage": "Only ART-001 through ART-008 in this invented sample."
+    },
+    {
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-009",
+        "ART-010",
+        "ART-011",
+        "ART-012",
+        "ART-013",
+        "ART-014",
+        "ART-015",
+        "ART-016",
+        "ART-021",
+        "ART-023",
+        "ART-024",
+        "ART-026",
+        "ART-028",
+        "ART-029"
+      ],
+      "coverage": "Only ART-009 through ART-016 in this invented sample."
+    },
+    {
+      "source_id": "SRC-003",
+      "source": "Trade News C",
+      "execution": "completed",
+      "result": "no hit",
+      "sample_result": "no finding",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "field_as_of": {
+        "execution": "2025-09-01",
+        "result": "2025-09-01",
+        "freshness": "2025-09-01"
+      },
+      "date_basis": "supplied snapshot",
+      "article_ids_checked": [
+        "ART-017",
+        "ART-018",
+        "ART-019",
+        "ART-020"
+      ],
+      "coverage": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "source": "Commerce News D",
+      "execution": "failed",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "source": "Regional News E",
+      "execution": "not attempted",
+      "result": "unavailable",
+      "sample_result": "unavailable",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "field_as_of": {
+        "execution": "2026-10-28",
+        "result": "2026-10-28",
+        "freshness": "2026-10-28"
+      },
+      "date_basis": "planned date only, nothing read",
+      "article_ids_checked": [],
+      "coverage": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "excluded_articles": [],
+  "non_events": [
+    {
+      "article_id": "ART-008",
+      "source_id": "SRC-001",
+      "source": "Business News A",
+      "fixture_file": "articles/ART-008.md",
+      "date": "2026-10-26",
+      "quote": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, showed a new vessel model on 2026-10-26.",
+      "event_id": "EVT-008",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, showed a new vessel model on 2026-10-26.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "provider of vessel bunkering services"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    },
+    {
+      "article_id": "ART-016",
+      "source_id": "SRC-002",
+      "source": "Shipping News B",
+      "fixture_file": "articles/ART-016.md",
+      "date": "2026-10-27",
+      "quote": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, changed its demonstration times on 2026-10-27.",
+      "event_id": "EVT-015",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, changed its demonstration times on 2026-10-27.",
+        "stage": null
+      },
+      "identity_check": {
+        "decision": "matched",
+        "matched_fields": [
+          "name",
+          "profile"
+        ],
+        "stated_fields": {
+          "profile": "provider of vessel bunkering services"
+        },
+        "conflicting_fields": [],
+        "identity": "matched on name, profile",
+        "readings": [
+          "same entity",
+          "different entity",
+          "not enough evidence"
+        ],
+        "chosen_reading": null
+      },
+      "classification": "not a sanctions event"
+    }
+  ],
+  "not_covered": [
+    {
+      "source_id": "SRC-003",
+      "execution": "completed",
+      "freshness": "stale",
+      "as_of": "2025-09-01",
+      "reason": "Only ART-017 through ART-020. No coverage after 2025-09-01."
+    },
+    {
+      "source_id": "SRC-004",
+      "execution": "failed",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot could not be read: invented timeout. No articles were retrieved. Retry required."
+    },
+    {
+      "source_id": "SRC-005",
+      "execution": "not attempted",
+      "freshness": "current",
+      "as_of": "2026-10-28",
+      "reason": "Planned snapshot was not read in this sample. No articles were retrieved. Check still required."
+    }
+  ],
+  "scope": "Supplied invented articles only. No live news search or sanctions-list check.",
+  "decision": "Human review required; tool chooses no disposition.",
+  "comparisons": [
+    {
+      "article_id": "ART-007",
+      "headline": "DEF Ship Management Pte. Ltd. investigated over sanctions circumvention",
+      "outlet": "Business News A",
+      "date": "2025-08-12",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.\n\nThe outlet could not immediately confirm the inquiry with the agency. The company declined to comment. The agency was examining vessel service permits at publication.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-007",
+      "part_in_story": "under investigation",
+      "stage": "investigation",
+      "story_evidence": {
+        "part_in_story": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+        "stage": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024."
+      },
+      "verdict": "Historical allegation; case was cleared on 2026-10-24.",
+      "fields": {
+        "name": {
+          "value": "DEF Ship Management Pte. Ltd.",
+          "source_sentence": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+          "subject_value": "DEF Ship Management Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "provider of vessel bunkering services",
+          "source_sentence": "According to Business News A on 2025-08-12, the Enforcement Agency C is investigating DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on suspicion of sanctions circumvention through bunkering a vessel linked to a designated owner under the Vessel Services Order 2024.",
+          "subject_value": "provider of vessel bunkering services",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": null,
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-008",
+      "headline": "DEF Ship Management Pte. Ltd. shows a vessel model",
+      "outlet": "Business News A",
+      "date": "2026-10-26",
+      "source_status": {
+        "execution": "completed",
+        "result": "possible hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, showed a new vessel model on 2026-10-26.\n\nThe display explained berth layouts at an invented regional port using wooden models.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-008",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, showed a new vessel model on 2026-10-26.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "DEF Ship Management Pte. Ltd.",
+          "source_sentence": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, showed a new vessel model on 2026-10-26.",
+          "subject_value": "DEF Ship Management Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "provider of vessel bunkering services",
+          "source_sentence": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, showed a new vessel model on 2026-10-26.",
+          "subject_value": "provider of vessel bunkering services",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": null,
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    },
+    {
+      "article_id": "ART-009",
+      "headline": "Regional agency closes DEF Ship Management Pte. Ltd. sanctions case",
+      "outlet": "Shipping News B",
+      "date": "2026-10-24",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.\n\nThe announcement identified the vessel-service inquiry first reported by Business News A on 2025-08-12.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-007",
+      "part_in_story": "not stated",
+      "stage": "case closed",
+      "story_evidence": {
+        "part_in_story": null,
+        "stage": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register."
+      },
+      "verdict": "Historical allegation; case was cleared on 2026-10-24.",
+      "fields": {
+        "name": {
+          "value": "DEF Ship Management Pte. Ltd.",
+          "source_sentence": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.",
+          "subject_value": "DEF Ship Management Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "provider of vessel bunkering services",
+          "source_sentence": "The Enforcement Agency C announced that it cleared DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, on 2026-10-24 and closed the sanctions-circumvention case over vessel bunkering under the Vessel Services Order 2024 after confirming that the services were permitted, removing the company from its local restrictions register.",
+          "subject_value": "provider of vessel bunkering services",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": null,
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      },
+      "links": [
+        {
+          "article_id": "ART-009",
+          "to_article_id": "ART-007",
+          "tier": "CONFIRMED",
+          "reasons": [
+            "Matched subject identity: DEF Ship Management Pte. Ltd.",
+            "Same authority: Enforcement Agency C",
+            "Publication date order: 2025-08-12 < 2026-10-24",
+            "Same legal order: Vessel Services Order 2024",
+            "Shared matter words: bunkering, circumvention, provider",
+            "Explicit earlier-report reference: Business News A on 2025-08-12"
+          ]
+        }
+      ],
+      "link": {
+        "to_article_id": "ART-007",
+        "tier": "CONFIRMED",
+        "reasons": [
+          "Matched subject identity: DEF Ship Management Pte. Ltd.",
+          "Same authority: Enforcement Agency C",
+          "Publication date order: 2025-08-12 < 2026-10-24",
+          "Same legal order: Vessel Services Order 2024",
+          "Shared matter words: bunkering, circumvention, provider",
+          "Explicit earlier-report reference: Business News A on 2025-08-12"
+        ]
+      }
+    },
+    {
+      "article_id": "ART-016",
+      "headline": "DEF Ship Management Pte. Ltd. changes demonstration times",
+      "outlet": "Shipping News B",
+      "date": "2026-10-27",
+      "source_status": {
+        "execution": "completed",
+        "result": "no hit",
+        "freshness": "current",
+        "as_of": "2026-10-28"
+      },
+      "body": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, changed its demonstration times on 2026-10-27.\n\nThe demonstration now begins at midday.\n\nSynthetic sample only. Names are placeholders and events are invented. Local in style only; no real place names are used.",
+      "event_id": "EVT-015",
+      "part_in_story": "mentioned only",
+      "stage": "not stated",
+      "story_evidence": {
+        "part_in_story": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, changed its demonstration times on 2026-10-27.",
+        "stage": null
+      },
+      "verdict": "Not a sanctions event.",
+      "fields": {
+        "name": {
+          "value": "DEF Ship Management Pte. Ltd.",
+          "source_sentence": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, changed its demonstration times on 2026-10-27.",
+          "subject_value": "DEF Ship Management Pte. Ltd.",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "profile": {
+          "value": "provider of vessel bunkering services",
+          "source_sentence": "DEF Ship Management Pte. Ltd., a provider of vessel bunkering services, changed its demonstration times on 2026-10-27.",
+          "subject_value": "provider of vessel bunkering services",
+          "status": "Same",
+          "comparison_note": ""
+        },
+        "key_people": {
+          "value": null,
+          "source_sentence": null,
+          "subject_value": null,
+          "status": "Not stated",
+          "comparison_note": ""
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "article_id": "ART-009",
+      "to_article_id": "ART-007",
+      "tier": "CONFIRMED",
+      "reasons": [
+        "Matched subject identity: DEF Ship Management Pte. Ltd.",
+        "Same authority: Enforcement Agency C",
+        "Publication date order: 2025-08-12 < 2026-10-24",
+        "Same legal order: Vessel Services Order 2024",
+        "Shared matter words: bunkering, circumvention, provider",
+        "Explicit earlier-report reference: Business News A on 2025-08-12"
+      ]
+    }
+  ]
+}

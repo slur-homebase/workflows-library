@@ -1,0 +1,69 @@
+{
+  "call": 30,
+  "model": "sonnet",
+  "article_id": "ART-010",
+  "attempt": 1,
+  "body_sha256": "1d664e85294b7e17e79b667f334fa9845f617542bffd4878352d68b66bb7bbb2",
+  "wall_seconds": 4.708719041999984,
+  "returncode": 0,
+  "cli": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "result": "```json\n{\n  \"name\": \"Ravi Selquill\",\n  \"role\": \"a commodity trader\",\n  \"employer\": null,\n  \"district\": \"Drelven\",\n  \"country\": null,\n  \"event_type\": \"open investigation\",\n  \"quote\": \"According to Vellquill Maritime Dispatch on 2026-10-25, the Velmora Customs Office is investigating Ravi Selquill, a commodity trader in Drelven, on suspicion of sanctions evasion through fuel cargo transhipment at Orlath free port.\",\n  \"event_date\": \"2026-10-25\",\n  \"authority\": \"Velmora Customs Office\"\n}\n```",
+    "duration_ms": 3655,
+    "duration_api_ms": 3158,
+    "num_turns": 1,
+    "total_cost_usd": 0.0066820000000000004,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1147,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 209,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1147,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 209,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 1147,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1147
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-sonnet-5": {
+        "inputTokens": 2,
+        "outputTokens": 209,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 1147,
+        "webSearchRequests": 0,
+        "costUSD": 0.0066820000000000004,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 0,
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "stop_reason": "end_turn"
+  }
+}
