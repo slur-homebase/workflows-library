@@ -46,3 +46,61 @@ Line numbers refer to the public files; no lines were added or removed.
 The required whole-tree literal scan is not clean. Unchanged tests and guard code contain deny-list literals and model-command names. Retained source records also contain internal attribution, and an imported historical helper has a runtime-specific scratch constant. The accepted README includes a live demonstration URL, while the brief allows only a repository URL; tests and browser network-blocking declarations contain URL literals too.
 
 No tests were weakened, evidence rewritten, names encoded, or accepted prose changed to hide these conflicts. Resolve the scan policy and any approved public-copy edits before publication. The passing package check covers the demo, not this whole source tree, and is not publication approval.
+
+## Public-copy corrections, 2026-11-12 (round 2)
+
+The sections above record round 1 at `8d2d717`. This section supersedes its blocked scan policy, byte-identity claims for the specific files below, and release-suite setup result. The owner approved these five fixes and the expected literals below. No private source files changed. This is a local correction, not publication approval.
+
+Paths below are relative to `skills/sanctions-news/` unless they start with `skills/`.
+
+- F1: `evidence/phase-4/round-3/support/dashboard/capture_browser.py:16` now uses `Path(tempfile.gettempdir())`. The historical helper follows the active temporary directory instead of one profile's home folder. No browser action changed. This code edit postdates the recorded runs; it does not refresh historical browser evidence.
+- F2: `evidence/phase-3/fixtures-v1/answer-key.json:3`, `sources.json:3` and `subjects.json:3` use `Invented for an offline sample.`. Only the attribution changed; all remaining bytes and invented values are retained.
+- F3: `fixtures/ANSWER-KEY-REVIEW.md:5,7` uses neutral owner-review wording and records the revision review as complete, as directed. The 12 accepted answers, date, sample limits, table and all strings asserted by tests remain intact.
+- F4: `SKILL.md:135` now points to the case study in the library README, rather than an obsolete pending-writing step. The accepted README is unchanged.
+- F5: `skills/release-check/tests/test_release_check.py:71-74` reads and stages `skills/rate-quote/runs/runs.csv` inside its isolated test repository. Lines 48-49 skip the integration setup when its private release manifest is absent. No test assertions or release rules changed. The missing manifest was confirmed after the ledger-path fix; no replacement manifest was invented or copied.
+
+No other evidence, fixture, sample or demo file changed from round 1. All public-copy edits are enumerated above. The scratch-only temporary-directory regression failed before F1 with a distinct active temporary directory and passed after F1.
+
+### Expected literals
+
+These are permitted source/test/sample literals, not publication blockers:
+
+- Deny-list words at `skills/release-check/scripts/sanctions_news.py:14-15`, in `scripts/check_answer_key.py` and in test files are intentional checker definitions or assertions. Keep them.
+- Invented subject fields `registration_number`, `date_of_birth` and `nationality`, including `SYN-` sample values, remain in fixtures, sample and historical evidence. They are not real identity data.
+- Model IDs beginning `claude-haiku-` or `claude-sonnet-` remain in `evidence/phase-3/`. `Claude Code` is already in the root README on public main.
+- The root README live-demo link `https://poppy-maple-75y9.here.now/` is retained verbatim, accepted by the owner on 2026-11-05.
+- The home-path rejection assertion at `tests/test_sanctions_news_run.py:104` remains unchanged under the explicit test-assertion exception. No actual home path is permitted.
+
+### Round-2 verification
+
+Fresh terminal checks with an explicit session temporary directory:
+
+- Sanctions-news suite: `Ran 236 tests in 12.999s`, `OK`, no skips.
+- Sample entry command: exit 0, answer key `38/38 rows passed`; `diff -r` against `demo/` emitted nothing, exit 0.
+- Full release-check suite: `Ran 34 tests in 2.507s`, `OK (skipped=20)`. Fourteen passed; the twenty integration methods below did not run.
+- Direct `sanctions_news.py` invocation: exit 0, no output. It defines the adapter but has no command-line entry point. The actual `release_check.py skills/sanctions-news` entry point also ran: four package checks PASS, 17 files compared, verdict PASS (offline package only; human sign-off not given).
+
+### Named skips
+
+All methods below belong to `test_release_check.ReleaseCheckTest` and share the reason `Private rate-quote release manifest is not included in the public layout`. Each depends on that manifest through `setUp`; these are not passed tests and do not establish a public rate-quote release gate.
+
+- `test_broken_rounding_case_is_block`
+- `test_default_check_preserves_manifest_on_hold`
+- `test_default_run_does_not_call_model`
+- `test_duplicate_run_id_counts_once_and_is_reported`
+- `test_duplicates_do_not_crowd_out_distinct_run_ids`
+- `test_invalid_run_ids_never_count_and_are_named`
+- `test_manifest_records_all_fingerprint_parts`
+- `test_matching_baseline_cannot_make_old_runs_current`
+- `test_no_change_is_release`
+- `test_normalized_distinct_valid_run_ids_still_count`
+- `test_normalized_duplicate_run_ids_count_once_before_and_after_reset`
+- `test_os_junk_does_not_change_fingerprint_or_run_version`
+- `test_reset_excludes_normalized_prior_manifest_ids`
+- `test_run_version_checks_uncommitted_parts`
+- `test_run_version_checks_untracked_code`
+- `test_run_version_separates_prompt_model_and_ordinary_code`
+- `test_runs_on_old_commit_with_changed_code_are_hold`
+- `test_template_edit_with_green_tests_is_hold_and_resets_count`
+- `test_unchanged_version_with_too_few_runs_does_not_claim_reset`
+- `test_unicode_digit_lookalikes_never_count_and_are_named`

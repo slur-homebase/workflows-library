@@ -13,7 +13,7 @@ import time
 ROOT = Path(__file__).resolve().parents[7]
 OUT = Path(__file__).resolve().parent
 PAGE = OUT / 'dashboard.html'
-SCRATCH = Path.home() / '.hermes/profiles/bellion/cache/scratch'
+SCRATCH = Path(tempfile.gettempdir())
 spec = importlib.util.spec_from_file_location('dashboard_browser_pipe', OUT.parent / 'capture_browser.py')
 assert spec and spec.loader
 browser = importlib.util.module_from_spec(spec)

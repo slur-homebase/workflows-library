@@ -45,6 +45,8 @@ class UnittestOutputTest(unittest.TestCase):
 class ReleaseCheckTest(unittest.TestCase):
 
     def setUp(self):
+        if not (SOURCE_REPO / "skills" / "rate-quote" / "release" / "manifest.json").is_file():
+            self.skipTest("Private rate-quote release manifest is not included in the public layout")
         self.temp = tempfile.TemporaryDirectory(prefix="release-check-test-")
         self.repo = Path(self.temp.name) / "repo"
         tracked = subprocess.run(["git", "ls-files", "-z"], cwd=str(SOURCE_REPO),
@@ -66,10 +68,10 @@ class ReleaseCheckTest(unittest.TestCase):
         skill_commit = self.git("rev-parse", "--short", "HEAD")
         self.skill_commit = skill_commit
         self.subject = self.repo / "skills" / "rate-quote"
-        runs = self.repo / "runs" / "runs.csv"
+        runs = self.subject / "runs" / "runs.csv"
         runs.write_text(runs.read_text(encoding="utf-8").replace("eadbd01", skill_commit),
                         encoding="utf-8")
-        self.git("add", "runs/runs.csv")
+        self.git("add", str(runs.relative_to(self.repo)))
         self.git("commit", "-m", "point runs at version under test")
         # Seed an isolated test fixture, never invoke the release-recording CLI.
         manifest = json.loads((SOURCE_REPO / "skills" / "rate-quote" / "release" /

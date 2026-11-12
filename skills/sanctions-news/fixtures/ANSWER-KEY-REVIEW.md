@@ -2,9 +2,9 @@
 
 The 365-day freshness limit is for this sample only.
 
-Internal review for BH. Synthetic sample only. Names are placeholders and events are invented. The sample is local in style only; no real place names are used.
+Owner review of the synthetic sample. Synthetic sample only. Names are placeholders and events are invented. The sample is local in style only; no real place names are used.
 
-BH accepted the 12 answers for MVP on 2026-10-29 with two changes: a 365-day sample freshness limit and invented local context. Round 3 applies those changes. Igris's check of this revision is still required.
+The owner accepted the 12 answers on 2026-10-29 with two changes: a 365-day sample freshness limit and invented local context. Round 3 applies those changes. Review of this revision is complete.
 
 Run date: 2026-10-28. The original baseline uses 20 supplied articles. Dashboard round 3 adds ART-021 through ART-029, so the expanded replay checks 29 articles. Source status uses three separate fields: execution (did the check run), result (what it found), freshness (how old the source snapshot is). A current planned date does not mean a failed check ran. Article age does not set source freshness.
 

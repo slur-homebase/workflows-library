@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "data_notice": "Invented by Bellion for an offline sample. All names, countries, identifiers, events and outlets are fictional. No real sanctions list or news report is represented.",
+  "data_notice": "Invented for an offline sample. All names, countries, identifiers, events and outlets are fictional. No real sanctions list or news report is represented.",
   "run_date": "2026-10-28",
   "freshness_rule": {
     "max_age_days": 365,

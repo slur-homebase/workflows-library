@@ -132,4 +132,4 @@ The sanctions-news release check verifies the offline package, banned terms, siz
 Its `PASS` is not a signed release or supervised human acceptance; the rate-quote gate is unchanged.
 `evidence/phase-3/` is frozen historical model-reader evidence, not the current sample or runtime route.
 Never refresh it with a model call. `evidence/phase-4/` retains round-3 and stage-settlement proof only.
-Public README case-study text is pending Kiba.
+The case study is in the library README.

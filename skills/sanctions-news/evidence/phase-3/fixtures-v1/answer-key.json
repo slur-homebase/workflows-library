@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "data_notice": "Invented by Bellion for an offline sample. All names, countries, identifiers, events and outlets are fictional. No real sanctions list or news report is represented.",
+  "data_notice": "Invented for an offline sample. All names, countries, identifiers, events and outlets are fictional. No real sanctions list or news report is represented.",
   "run_date": "2026-10-28",
   "scope": "Human review answer key for this invented article set only. Phase 1 findings are sanctions events only, not general adverse media. Dates on findings and quotes are article publication dates. A cleared historical report is retained, not counted as an open allegation. Source result finding includes historical sanctions events; a case-closure article is context, not a new open finding. These are planned sample results, not executed news research.",
   "article_front_matter": "Each Markdown file uses five fields with JSON values, a valid subset of YAML: id, source_id, date, headline, subject_ids. Parse with the standard library only.",
